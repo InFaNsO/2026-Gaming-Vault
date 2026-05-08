@@ -1,0 +1,17 @@
+{
+  "cascadeColors": true,
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "Ihn1AafmisyUYWWXrL-87",
+      "name": "Light Red",
+      "value": "#cd4c4c"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "BGamer YT",
+      "color": "Ihn1AafmisyUYWWXrL-87"
+    }
+  ]
+}

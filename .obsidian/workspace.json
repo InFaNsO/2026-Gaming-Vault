@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "1343f2200ce6cb59",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fa4b4247b172846",
+        "type": "tabs",
+        "dimension": 60.83032490974729,
+        "children": [
+          {
+            "id": "53b87bdad5b3a240",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Game Development/Main Game/06 List Of Game Mechanics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06 List Of Game Mechanics"
+            }
+          },
+          {
+            "id": "7686e1e0597a6bf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Game Development/Main Game/Mechanics/Looter Shooter/07 Civilization - The Grinders.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "07 Civilization - The Grinders"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "bbfedd59e88364b2",
+        "type": "tabs",
+        "dimension": 39.16967509025271,
+        "children": [
+          {
+            "id": "d5770cedb72c92fa",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "33c67ad2f9e582a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "b05de106bdf4c742",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "685575bf11a9f6c0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "7ceb768c49143497",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "29d56a960b7c381c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "edbc8f635b6c6cf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebf616530f104f06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2c502c14cbf89eb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "bcae1b98b16d8db5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "9147e0aa9906db72",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "dae834ff7f399e1a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "685575bf11a9f6c0",
+  "lastOpenFiles": [
+    "README.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/00 Looter Shooter.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/07 Civilization - The Grinders.md",
+    "Game Development/Main Game/Mechanics/Magic System",
+    "Game Development/Main Game/Mechanics/Looter Shooter/05 Mega Structures - Game Worlds.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/06 Element in Looter Shooter.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/01 Goal.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/Untitled.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/02 Story.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/04 List of things required.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/03 Game Loop.canvas",
+    "Game Development/Main Game/05 Game Loop.canvas",
+    "Game Development/Main Game/06 List Of Game Mechanics.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter",
+    "Mechanics.md",
+    "Game Development/Main Game/Mechanics",
+    "Game Development/Main Game/04 Game Pitch.md",
+    "Game Development/Main Game/01 Concept & Idea.md",
+    "Game Development/Main Game/02 Goals For the Final Game.md",
+    "Game Development/Main Game/03 Genre Deep Dive.md",
+    "BGamer YT/Game Content Formats.md",
+    "Game Development/Main Game",
+    "Game Development",
+    "BGAMER Base.md",
+    "BGamer YT",
+    "create a link.md",
+    "Welcome.md"
+  ]
+}
