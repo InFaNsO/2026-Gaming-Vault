@@ -246,6 +246,14 @@ Triggered when an `Alerted` enemy gets LOS within combat range. Time freezes for
 - [V1] Reputation visible in vendor UI + reflected in vendor pricing
 - [Stretch] Faction-on-faction events (e.g., loyal Grinder patrol clashes with rival scavengers mid-raid)
 
+### J5. Raid Elites (Duckov-style repeatable mini-bosses)
+Killable, repeatable, loot-dropping. Distinct from story-gated named Husks. Reuse base archetype + 1–2 accessories + tuned stats + one unique hook. Full roster in [[11 Factions and Species#4.5. Raid Elites (Duckov-style — Topic 10)|Factions doc §4.5]].
+- [V1] **Spawn system** — rotating / % chance in procgen raid zones; signature loot tables per elite
+- [V1] **Lithic Mow (prototype):** Drill-Mother ⭐, Whisper-Shaman ⭐ (priority), + Scrap-Tyrant, The Sightless
+- [Stretch] **Genesis Vats:** Tide-Captain ⭐, Drowned Choir ⭐, Brood-Mother, The Stillwater
+- [Stretch] **Prism Forge:** Ash-Marshal ⭐, Mirror-Speaker ⭐, Sun-Stalker, The Glasswright
+- _Scope note: candidate pool of 12; trim/revise per scope. ~3 per biome target, 4 stretch. ⭐ = ship-first picks._
+
 ## K. Base / Hideout
 
 - [MVP] Stash (large grid storage)

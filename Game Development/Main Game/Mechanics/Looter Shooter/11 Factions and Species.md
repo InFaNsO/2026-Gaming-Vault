@@ -142,13 +142,51 @@ Ambient non-combat life (insects, distant silhouettes, set-dressing fauna) may e
 - **Sun-King** = upscaled Reptile mesh + Forge ceremonial armor + sun-disc accessory (Forge manager)
 - **Head of Research** = upscaled Amphibian mesh + unique inner-circle accessories, distinct from Vatlord (final boss, beneath the Vats). Heaviest corruption-shader treatment in the game.
 
-> 📝 **Open design note — multiple bosses per biome (Duckov-style):**
-> Escape from Duckov places multiple boss-tier encounters across each map (not all story-critical — many are elite spawns with unique loot, gimmicks, or named identity). Consider extending each biome with **2–3 additional mini-bosses** beyond the single story boss. Examples for shape:
-> - **Lithic Mow:** Elder Chieftain (story) + *The Drill-Mother* (unique Driller variant with cover-shredding drill), *Whisper-Shaman* (a Shaman who almost succeeded at refining Mani — drops first chosen-element raw shard)
-> - **Genesis Vats:** Vatlord (story) + *The Drowned Choir* (3 fused Choirs sharing HP), *Tide-Captain* (Tidefall with extended detonation radius + multi-phase)
-> - **Prism Forge:** Sun-King (story) + *Ash-Marshal* (elite Forge-Sentinel commanding lesser Sentinels), *Mirror-Speaker* (Ember-Speaker that reflects projectiles)
->
-> **Asset cost** is low (reuses base archetype + 1–2 accessories + tuned stats). **Design cost** is real — each needs a unique mechanical hook to feel boss-tier. Revisit after [[13 Campaign Structure]] details solidify.
+---
+
+## 4.5. Raid Elites (Duckov-style — Topic 10)
+
+Repeatable, **killable** mini-bosses that live in the procgen raid loop — distinct from the story-gated, forced-purified named Husks. They respawn across runs (rotating / % spawn chance in raid zones), drop **signature loot**, and exist to give the extraction loop huntable targets. Each reuses a base archetype mesh + 1–2 accessories + tuned stats + **one unique mechanical hook** (no new rigs). Aligned to each biome's combat flavor and signature mechanic.
+
+> ⚠️ **Scope note — these are a candidate pool, not a fixed commitment.** All 12 are locked as *designed*, but the final roster (which ship, how many per biome) will be trimmed or revised based on development scope and what the loop actually needs. The 2 starred (⭐) Lithic Mow elites are the prototype's priority; main-game target is ~3 per biome with 4 as a stretch. Cut freely if scope demands.
+
+### Lithic Mow — Grinders + scavengers (earth / drill / vertical / destructible cover)
+*Ship in the standalone prototype (V1).*
+
+| Elite | Reuses | Unique hook | Signature drop |
+|---|---|---|---|
+| **The Drill-Mother** ⭐ | Driller + drill accessory, scaled | Industrial drill bores through **all cover in a line**; can trigger a telegraphed **cave-in** (ceiling collapse). Forces you out of static cover. | Cover-shredding heavy weapon |
+| **Whisper-Shaman** ⭐ | Shaman + ritual accessory | Almost cracked refinement — throws **semi-controlled** Mani: Effect Table *biased* toward one element per fight (more predictable, more dangerous). | Rare refined-Bhu shard / Mani-affinity trinket |
+| **The Scrap-Tyrant** | Driller/Chief + salvaged-armor bolt-ons | Heavy salvage armor (high DR), **calls off-map reinforcements each turn** + rally buff. War of attrition unless burst down. | Signature heavy armor piece |
+| **The Sightless** | Scout, dark palette | Lives in unlit deep shafts — **breaks LOS and ambush-repositions** between cover in the dark. Rewards flares / Mani light. | Stealth/night-vision gear or unique knife |
+
+### Genesis Vats — Amphibian Husks (water / vapor / Jal freeze-push / swarm)
+
+| Elite | Reuses | Unique hook | Signature drop |
+|---|---|---|---|
+| **The Tide-Captain** ⭐ | Tidefall, scaled | Multi-phase: each transition fires a **Freeze/Push AOE** and **floods the arena one level higher**, shrinking safe ground. Positioning gauntlet. | Jal-infused weapon |
+| **The Drowned Choir** ⭐ | 3× Choir, shared HP pool | Three fused Choirs — **silence in sequence**; while any live they regen + confuse each other's killers. Priority-target puzzle. | Anti-status / support relic |
+| **Brood-Mother** | Vat-Brood + armored shell | Continuously **spawns Brood swarm**; armored, only vulnerable when she **surfaces to spawn**. Tests AOE + timing. | Swarm-clear AOE weapon |
+| **The Stillwater** | Tidefall/Choir + vapor accessory | Turns the **vapor-management mechanic against you** — floods safe zones with toxic vapor, drains healing vapor; forces mid-fight valve re-routing. | Vapor-immunity gear |
+
+### Prism Forge — Reptile Husks (light / heat / Agni burn / reflective glass / predator)
+
+| Elite | Reuses | Unique hook | Signature drop |
+|---|---|---|---|
+| **The Ash-Marshal** ⭐ | Forge-Sentinel + command accessory | **Commands lesser Sentinels** in formation (buffs them, forms a phalanx broken only by flanking). High DR. Tests flanking + priority. | Heavy Agni armor |
+| **The Mirror-Speaker** ⭐ | Ember-Speaker + glass panels | Reflective panels **bounce the player's ranged shots back** — fight with melee or shatter panels first. Inverts the shooter instinct. | Reflective shield / unique melee weapon |
+| **The Sun-Stalker** | Cinder-Stalker + shimmer FX | **Goes invisible in heat zones**, strikes from stealth, *extends* heat zones across the arena. Tests heat-zone navigation. | Heat-cloak / stealth item |
+| **The Glasswright** | Ember-Speaker + prism accessory | **Hijacks the tower-beam light mechanic** — redirects sweeping laser hazards, splits beams with prisms. Environmental-hazard duel. | Light-based weapon / prism trinket |
+
+### Raid Elites vs Named Husks — the distinction
+
+| | Named Husks | Raid Elites |
+|---|---|---|
+| Killable? | No — forced purification only | **Yes** — killed for loot |
+| Repeatable? | No — one-time story beats | **Yes** — respawn across runs |
+| Purpose | Lore, Mani teaching, conspiracy reveal | Extraction-loop hunt targets, signature loot |
+| Spawn | Scripted, fixed location | Procgen raid zones (rotating / % chance) |
+| Asset basis | Base mesh + accessories (1.5× for bosses) | Base archetype + 1–2 accessories + tuned stats |
 
 ---
 

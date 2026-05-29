@@ -22,9 +22,9 @@ This file is the shared, version-controlled brain across machines (home PC + off
 - [x] **Topic 9** — Wildlife scope: **CUT entirely**. No animal faction. Threat role filled by rival Grinder scavengers (reuse human rig). Preserves one-rig art discipline.
 
 - [x] **Topic 8 final-boss resolution** — Head of Accord Research is the campaign final boss (beneath the Vats / Breach site). Boss org-chart hierarchy locked. Two-tier truth locked.
+- [x] **Topic 10** — Raid elites (Duckov-style killable repeatable mini-bosses). All 12 locked as a candidate pool (4 per biome), trimmable by scope. Distinct from named Husks.
 
-**Topics still queued:**
-- [ ] **Topic 10** — Revisit mini-bosses per biome (deferred from Topic 3 — Duckov-style multi-boss setpieces per biome; note: the named-Husk hierarchy now gives 2-3 named bosses per biome, partially addressing this)
+**All planned topics (1–10) are now locked.** Design pass complete; remaining work is production, not planning.
 
 ---
 
@@ -83,7 +83,9 @@ This file is the shared, version-controlled brain across machines (home PC + off
 
 ### Recent changes (digest)
 
-- **2026-05-29** — Topic 8 reveal-structure refinement (this commit): The conspiracy is now kept even inside the Accord — the **Teaching Husks (Vats 1, Vats 2, Forge 1) do NOT know the truth**; they believe The Breach was an accident while refining. **The mid-game reveal moves to the Vatlord boss**: on defeat, attempted purification → he confesses the doorway-experiment reality + reveals the sealed chamber's location → **DIES before teaching the "how"** (the one named Husk who doesn't survive; honored by an empty seat at the Council). **Two-key endgame gate**: all 4 Manis (to reach the chamber) + the **Prime Focus Lens dropped by Sun-King** (to enter/power it; lore-grounded in the Forge→Vats heat pipeline). Head of Research (final boss in the chamber) delivers the reckoning + the "how." Council allies now **5 named Husks** (Vatlord absent). Updates to 04, 05, 06, 11, 12, 13.
+- **2026-05-29** — Topic 10 locked (this commit): Raid elites — Duckov-style **killable, repeatable, loot-dropping** mini-bosses, distinct from the story-gated forced-purify named Husks. All **12 locked as a candidate pool (4 per biome)** with an explicit scope note that they may be trimmed/revised. Each reuses a base archetype + 1–2 accessories + tuned stats + one unique mechanical hook (no new rigs). Lithic Mow elites (Drill-Mother ⭐, Whisper-Shaman ⭐, Scrap-Tyrant, The Sightless) ship in the prototype; Vats + Forge elites are main-game stretch. ~3/biome target, 4 stretch. Added §4.5 to `11 Factions and Species.md` + J5 to `09 Complete Feature List.md`. **All planned topics 1–10 now locked.**
+
+- **2026-05-29** — Topic 8 reveal-structure refinement (commit `c6d6daf`): The conspiracy is now kept even inside the Accord — the **Teaching Husks (Vats 1, Vats 2, Forge 1) do NOT know the truth**; they believe The Breach was an accident while refining. **The mid-game reveal moves to the Vatlord boss**: on defeat, attempted purification → he confesses the doorway-experiment reality + reveals the sealed chamber's location → **DIES before teaching the "how"** (the one named Husk who doesn't survive; honored by an empty seat at the Council). **Two-key endgame gate**: all 4 Manis (to reach the chamber) + the **Prime Focus Lens dropped by Sun-King** (to enter/power it; lore-grounded in the Forge→Vats heat pipeline). Head of Research (final boss in the chamber) delivers the reckoning + the "how." Council allies now **5 named Husks** (Vatlord absent). Updates to 04, 05, 06, 11, 12, 13.
 
 - **2026-05-29** — Topic 8 final-boss resolution (commit `e5f3e2b`): Restructured the endgame around a boss org-chart hierarchy. **Head of Accord Research** (Amphibian) is the **campaign final boss**, beneath the Vats (Breach site). **Sun-King demoted** from final boss to Forge manager; Vatlord = Vats manager — both give NO Mani and require their biome's Mani to defeat. The optional Forge Husk 4 dissolved into the mandatory final boss. The final boss's Husk unconsciously guarded against Akash re-refinement for a thousand years. (Reveal sourcing + two-key gate further refined in the next commit.)
 
