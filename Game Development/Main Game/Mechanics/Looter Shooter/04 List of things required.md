@@ -121,28 +121,31 @@
     - [ ] Akash-Mani is NOT used for enchantment — only manifested in endgame production sequence
 
 - [ ] **Named Husks — forced-purification boss hierarchy (Topic 8)**
-    - [ ] 6 named Husks total, all mandatory, all forced-purified (no kill option)
+    - [ ] 6 named Husks total, all mandatory, forced purification (no player kill option)
+    - [ ] **The conspiracy was kept even inside the Accord** — Teaching Husks (working researchers) did NOT know; only managers + Head of Research knew
     - [ ] Org-chart hierarchy preserved in corruption (climb the Accord chain of command in reverse):
-        - [ ] **Tier 1 — Teaching Husks** (mini-bosses, teach a Mani during the fight at critical state):
-            - [ ] Vats Husk 1 (entry hub) → Jal-Mani — *hint* only
-            - [ ] Vats Husk 2 (inner sanctum) → Vayu-Mani + **mid-game factual conspiracy reveal**
-            - [ ] Forge Husk 1 (entry hub) → Agni-Mani — *hint* only
-        - [ ] **Tier 2 — Manager Bosses** (reclamation bosses; give NO Mani; require biome Mani to defeat):
-            - [ ] Vatlord (Vats manager) — requires Jal + Vayu — *hint*
-            - [ ] Sun-King (Forge manager) — requires Agni — *hint*
+        - [ ] **Tier 1 — Teaching Husks** (mini-bosses, teach a Mani during the fight at critical state; believe the OFFICIAL LIE = an accident while refining):
+            - [ ] Vats Husk 1 (entry hub) → Jal-Mani
+            - [ ] Vats Husk 2 (inner sanctum) → Vayu-Mani (no reveal — repeats the lie with unease)
+            - [ ] Forge Husk 1 (entry hub) → Agni-Mani
+        - [ ] **Tier 2 — Manager Bosses** (knew the truth; give NO Mani; require biome Mani to defeat):
+            - [ ] **Vatlord** (Vats manager) — requires Jal + Vayu — **THE MID-GAME REVEAL**: on defeat, attempted purification → confesses reality (doorway experiment) + reveals sealed chamber location → **DIES before teaching the "how"** (the one named Husk who does not survive)
+            - [ ] **Sun-King** (Forge manager) — requires Agni — forced-purified → ally; **drops the Prime Focus Lens** (endgame key #2)
         - [ ] **Tier 3 — Final Boss**:
-            - [ ] Head of Accord Research (Amphibian) — beneath the Vats (Breach site) — requires ALL 4 Manis — delivers the **endgame reckoning**
+            - [ ] Head of Accord Research (Amphibian) — in the sealed chamber beneath the Vats — requires ALL 4 Manis + the Prime Focus Lens to reach/enter — delivers the **endgame reckoning** + the "how to refine" Vatlord died before giving
     - [ ] **Knowledge transmission happens DURING the teaching-Husk fight at critical state** — Mani recipe unlocked as part of the encounter
     - [ ] **Manager bosses & final boss are capability-gated** — can't progress without the relevant Mani(s)
-    - [ ] After purification: Husk reverts to pre-Breach form, joins base as ally, present at Council Scene with arc-aware dialogue
-    - [ ] All 6 named Husks ALWAYS become allies (forced purification = consistent endgame roster for every player)
+    - [ ] After purification: Husk reverts, joins base as ally, present at Council Scene — **EXCEPT Vatlord (dies)**
+    - [ ] **5 named Husks become allies** at the Council Scene (Vatlord absent — honored by an empty seat)
     - [ ] No named Husks at Lithic Mow (Grinder-only biome; player wakes knowing Bhu-Mani)
-    - [ ] **Two-tier truth**: hints (most Husks) → mid-game factual reveal (Vats Husk 2) → endgame reckoning (Head of Research)
+    - [ ] **Escalating truth**: the lie (Teaching Husks) → the reveal (Vatlord, dies) → the means (Sun-King's Lens) → the reckoning (Head of Research)
 
-- [ ] **Endgame final-boss flow**
-    - [ ] After all 3 structures reclaimed + all 4 Manis held → sealed chamber beneath the Vats (Breach site) unseals
-    - [ ] Return to Vats, descend, fight Head of Research (final boss)
-    - [ ] Forced purification → reckoning → return to base
+- [ ] **Endgame two-key gate + final-boss flow**
+    - [ ] **Key 1 — all four elemental Manis** → *reach* the sealed chamber beneath the Vats (descent unseals)
+    - [ ] **Key 2 — Prime Focus Lens (from Sun-King)** → *enter and power* the chamber
+    - [ ] Chamber location learned from Vatlord (Act 2); both keys needed before the player can act on it
+    - [ ] Return to Vats, descend, fight Head of Research (final boss; requires all 4 Manis)
+    - [ ] Forced purification → reckoning + the "how" → return to base
     - [ ] Council Scene → The Choice → (good) Akash Mani production at base
 
 - [ ] **Mani System (lore-driven combat resource)**

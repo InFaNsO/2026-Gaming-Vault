@@ -112,9 +112,9 @@ Four acts, mapped to geography. Each act = a hub + the connecting region after i
 |---|---|---|
 | **Tutorial** | Headwaters cryo pod | Wake. Cryo-memory of Bhu-Mani refinement intact. Learn movement, stealth, combat. Encounter first Grinder. |
 | **Act 1 — Trust** | Lithic Mow + Riverwild | Earn Grinder trust ([[15 Grinder Trust Arc]]). **Teach Bhu-Mani refinement** to the Shaman during the Drill Assault. Reclaim Lithic Mow. Establish player base. Bhu-Mani gear unlocks river travel. First travel down Riverwild — meet Cryo-Survivor 1. |
-| **Act 2 — Revelation** | Genesis Vats | Reclaim Vats. **Vats Husk 1** (entry hub, mini-boss) → teaches **Jal-Mani** (solves the puzzle gate + enables harder elemental combat). **Vats Husk 2** (inner sanctum, mini-boss) → teaches **Vayu-Mani** + delivers the **mid-game factual conspiracy reveal**. **Vatlord** (the Vats manager boss) requires Jal + Vayu to defeat → reclamation. Worldview shifts; back half now plays under dramatic irony. |
-| **Act 3 — Conviction** | Drowned Reach + Prism Forge | Travel south. Submerged city deepens lore. **Forge Husk 1** (entry hub, mini-boss) → teaches **Agni-Mani**. **Sun-King** (the Forge manager boss) requires Agni to defeat → reclamation. Hints from purified Husks point "back to the water" and to "someone below us all." |
-| **Act 4 — Reckoning & Choice** | Return to Genesis Vats → player base | With all three structures reclaimed and all four Manis held, a **sealed deep chamber beneath the Vats — the Breach site — opens.** Descend. **Final boss: the Head of Accord Research** (Amphibian, the boss the managers answered to; requires all four Manis). Forced purification → the **endgame reckoning** (full truth + guardian revelation). Return to base with him as an ally. **Council Scene → The Choice.** Good path: **Akash Mani produced** at the base. Endings play. |
+| **Act 2 — Revelation** | Genesis Vats | Reclaim Vats. **Vats Husk 1** (entry hub) → teaches **Jal-Mani**. **Vats Husk 2** (inner sanctum) → teaches **Vayu-Mani**; both Teaching Husks believe the *official lie* (an accident while refining) and carry only unease. **Vatlord** (manager boss; requires Jal + Vayu to defeat) → on defeat, attempted purification → **confesses the reality** (it was a doorway experiment) + reveals the **sealed deep chamber's location** beneath the Vats — **then dies before teaching the "how."** This is the mid-game reveal; the back half now plays under dramatic irony. |
+| **Act 3 — Conviction** | Drowned Reach + Prism Forge | Travel south (now knowing the chamber exists, but unable to reach or enter it yet). **Forge Husk 1** (entry hub) → teaches **Agni-Mani** (the 4th and final Mani). **Sun-King** (manager boss; requires Agni to defeat) → forced-purified → **drops the Prime Focus Lens**, the apparatus needed to enter and power the sealed Akash chamber. Player now holds both endgame keys. |
+| **Act 4 — Reckoning & Choice** | Return to Genesis Vats → player base | With all four Manis (to *reach*) and the Prime Focus Lens (to *enter*), the **sealed deep chamber beneath the Vats — the Breach site — opens.** Descend. **Final boss: the Head of Accord Research** (Amphibian, the boss the managers answered to; requires all four Manis). Forced purification → the **endgame reckoning** (full truth + guardian revelation + the **"how to refine"** Vatlord died before giving). Return to base with him as an ally. **Council Scene → The Choice.** Good path: **Akash Mani produced** at the base. Endings play. |
 
 ---
 
@@ -122,16 +122,16 @@ Four acts, mapped to geography. Each act = a hub + the connecting region after i
 
 ### The endgame sequence (full flow)
 
-1. All three structures reclaimed (Lithic via the Trust Arc / Drill Assault; Vats via Vatlord; Forge via Sun-King). Player holds all four elemental Manis: **Bhu, Jal, Vayu, Agni.**
-2. A **sealed deep chamber beneath Genesis Vats — the actual Breach site, ground zero** — unseals (the four Manis are the key). The player returns to the Vats and descends.
+1. All three structures reclaimed. Player holds all four elemental Manis (**Bhu, Jal, Vayu, Agni**) AND the **Prime Focus Lens** dropped by Sun-King.
+2. The **two-key gate** opens the **sealed deep chamber beneath Genesis Vats — the actual Breach site, ground zero**: all four Manis to *reach* it (the descent unseals), the Prime Focus Lens to *enter and power* it. The player returns to the Vats and descends. (The chamber's location was revealed by Vatlord back in Act 2; only now can the player act on it.)
 3. **Final boss: the Head of Accord Research** (Amphibian; the boss Vatlord and Sun-King answered to). Requires all four Manis to defeat — the culmination of everything learned.
-4. **Forced purification** → he is restored → the **endgame reckoning** (full truth, the guardian revelation that his Husk spent a thousand years unconsciously guarding against Akash re-refinement, and the framing of the Choice). See [[12 The Akashic and The Bleed#9 The Endgame: The Head of Research & The Final Reckoning|the reckoning]].
+4. **Forced purification** → he is restored → the **endgame reckoning** (full truth, the guardian revelation that his Husk spent a thousand years unconsciously guarding against Akash re-refinement, the **"how to refine"** Vatlord died before giving, and the framing of the Choice). See [[12 The Akashic and The Bleed#9 The Endgame: The Head of Research & The Final Reckoning|the reckoning]].
 5. He returns to the **player base** as an ally.
 6. **Council Scene → The Choice → (good path) Akash Mani production**, all at the base. The three-part endings play.
 
 ### Framing
 
-By the time the Choice arrives, the player has been **forced to purify every named Husk** (3 teaching Husks + 2 manager bosses + the head of research — see [[11 Factions and Species#Purification mechanic (all named Husks) — **mandatory, no kill option**|the purification system]]). Every player therefore arrives with the same context: they have learned all four elemental Manis, met the restored researchers, learned the full truth, and **always hold the safe Akash-refinement protocols** (the head of research gives them on purification — he's mandatory). The question is never *can* you refine Akash, only *should* you.
+By the time the Choice arrives, the player has **forced-purified five of the six named Husks into allies** (3 teaching Husks + Sun-King + the head of research). **Vatlord is the exception — he died delivering the truth in Act 2.** Every player arrives with the same context: all four Manis learned, the full truth known, the Prime Focus Lens in hand, and — via the head of research's mandatory purification — **the safe Akash-refinement protocols.** The question is never *can* you refine Akash, only *should* you.
 
 **The Choice is a pure values declaration:** rebuild civilization centered on humans alone, or rebuild as a renewed multi-species federation.
 
@@ -154,7 +154,7 @@ Triggers when player returns to base after Forge reclamation. Single authored se
 
 - **Grinders**: Chief, Shaman, Scout
 - **Cryo-Survivors**: every recruit from river-journey mini-locations
-- **Purified named Husks**: all 6 (Vats 1, Vats 2, Vatlord, Forge 1, Sun-King, Head of Research) — every player has all six via forced purification
+- **Purified named Husks**: 5 (Vats 1, Vats 2, Forge 1, Sun-King, Head of Research) — every player has all five via forced purification. **Vatlord died in Act 2** and is honored by an empty seat.
 
 Each ally speaks 1-2 lines making their case (~25-35 lines total). Speakers naturally split:
 
@@ -169,10 +169,10 @@ Each ally speaks 1-2 lines making their case (~25-35 lines total). Speakers natu
 ### Hybrid scene authoring
 
 **Council scene structure is fixed**, but specific allies' dialogue varies based on personal arcs:
-- **Named NPCs** — Chief, Shaman, Scout, and all **6 purified named Husks** (Vats 1, Vats 2, Vatlord, Forge 1, Sun-King, and the Head of Research) — get **arc-aware lines** referencing player choices throughout the campaign. The Head of Research, as the last and most senior voice, anchors the case for the multi-species path.
+- **Named NPCs** — Chief, Shaman, Scout, and the **5 purified named Husks** (Vats 1, Vats 2, Forge 1, Sun-King, and the Head of Research) — get **arc-aware lines** referencing player choices throughout the campaign. The Head of Research, as the last and most senior voice, anchors the case for the multi-species path. **Vatlord is absent — he died in Act 2 delivering the truth; an empty seat at the council marks him.**
 - **Cryo-Survivors and generic recruits** have **fixed lines** that fit the council shape
 
-All 6 named Husks are always present (forced purification means every player has them as allies). Variance comes from Grinder Trust Arc completion + Cryo-Survivor recruits along the river journey + dialogue choices throughout.
+All 5 surviving named Husks are always present (forced purification means every player has them as allies); Vatlord's absence is constant. Variance comes from Grinder Trust Arc completion + Cryo-Survivor recruits along the river journey + dialogue choices throughout.
 
 This balances replay depth with authoring scope — adds roughly 30-50% more lines than a flat scene but keeps the core structure stable.
 
@@ -292,10 +292,10 @@ Each structure gets one defining mechanic that scales across the visit.
 - **Hook**: vapor management. Toxic Bleed vapor in corrupted zones (status DoT). Healing vapor in old refinement halls (regen). Player redirects vapor flows via valves to clear paths and create temporary safe zones.
 - **Named Husks**:
   - **Vats Husk 1** (entry hub, mandatory mini-boss) — teaches **Jal-Mani** refinement. First named-Husk encounter of the entire campaign. Establishes the mini-boss-and-teaching mechanic.
-  - **Vats Husk 2** (inner sanctum, mandatory mini-boss) — teaches **Vayu-Mani** refinement and **reveals the conspiracy** (Akash doorway research, the inner circle, the truth about The Breach). Gives lore drop on the Vatlord boss + the Vayu-Mani reactivation process.
+  - **Vats Husk 2** (inner sanctum, mandatory mini-boss) — teaches **Vayu-Mani** refinement. **Does NOT know the truth** — believes The Breach was an accident while refining, repeats the official story with buried unease. (The reveal comes from Vatlord, not here.)
 - **Puzzle gate examples**: route healing vapor into a corrupted refinement hall to make it safe enough to enter (using **Jal-Mani** learned from Vats Husk 1); cut off vapor flow to a Husk-infested rig to weaken enemies; seal a leak bleeding contaminated water into a clean section.
 - **Inner sanctum**: deep refinement chambers (partially submerged).
-- **Boss**: **Vatlord** (the Vats site manager). Multi-phase, spawns Vat-Brood, cascading status. **Requires Jal + Vayu to defeat** (gives no Mani). Defends the central vapor regulator. Forced-purified → becomes ally, gives a *hint* ("he was below us all"). NOT the campaign final boss.
+- **Boss**: **Vatlord** (the Vats site manager — he *knew* the truth). Multi-phase, spawns Vat-Brood, cascading status. **Requires Jal + Vayu to defeat** (gives no Mani). Defends the central vapor regulator. On defeat, attempted purification → **confesses the reality (doorway experiment) + reveals the sealed chamber's location, then DIES** before teaching the "how." The mid-game reveal; the one named Husk who does not survive; NOT the campaign final boss.
 - **Mani knowledge unlocks**: Jal-Mani (via Husk 1, mid-visit) + Vayu-Mani (via Husk 2, end-visit). Both learned from the teaching Husks; Vatlord then tests mastery of both.
 - **Endgame note**: the sealed deep chamber below the Vats (the Breach site) is visible but inaccessible on this first visit — foreshadows the return for the final boss.
 - **Audio logs**: Accord-era Amphibian rituals, vapor refinement protocols, the inner-circle Akash doorway research, fragments of the final day before The Breach.
@@ -304,14 +304,14 @@ Each structure gets one defining mechanic that scales across the visit.
 - **Hook**: light/laser redirection (aim mirrors/prisms to crack sealed doors, activate sequences, redirect tower beams). Heat zones (timed exposure, Agni-Mani gear extends safe time).
 - **Puzzle gate examples**: redirect three tower beams to crack a Reptile ceremonial seal; align mirrors so a single beam passes through three sequential prisms to ignite a forge; survive a heat zone by hopping between shade pillars using timing.
 - **Named Husk**:
-  - **Forge Husk 1** (entry hub, mandatory mini-boss) — teaches **Agni-Mani** refinement. Mirrors the Vats entry-hub pattern. Agni-Mani enables the heat-zone tolerance gear required to push deeper into the towers. Forced-purified → ally, gives a *hint* ("the Forge was never the heart — go back to the water").
+  - **Forge Husk 1** (entry hub, mandatory mini-boss) — teaches **Agni-Mani** refinement (the 4th and final elemental Mani). Does NOT know the truth — same official story, same buried unease. Forced-purified → ally.
 - **Inner sanctum**: top of a glass tower, sun-peak chamber.
-- **Boss**: **Sun-King** (the Forge site manager). Phase 1 = sun pillars (LOS hazards constantly sweeping the arena), phase 2 = burn-everything ultimate. **Requires Agni to defeat** (gives no Mani). Defends the prime focus lens. Forced-purified → ally, gives a *hint*. **NOT the campaign final boss** — that is the Head of Research, fought afterward beneath the Vats.
-- **Mani knowledge unlocks**: Agni-Mani (via Forge Husk 1). Sun-King then tests mastery of it.
+- **Boss**: **Sun-King** (the Forge site manager — he knew the truth). Phase 1 = sun pillars (LOS hazards constantly sweeping the arena), phase 2 = burn-everything ultimate. **Requires Agni to defeat** (gives no Mani). Defends the **Prime Focus Lens.** Forced-purified → ally; confirms Vatlord's account and **hands over the Prime Focus Lens** — the second endgame key, required to enter and power the sealed Akash chamber beneath the Vats. **NOT the campaign final boss** — that is the Head of Research, fought afterward beneath the Vats.
+- **Mani knowledge unlocks**: Agni-Mani (via Forge Husk 1). Sun-King then tests mastery of it. **Key item:** Prime Focus Lens (from Sun-King).
 - **Audio logs**: Accord-era Reptile hierarchy, heat refinement, the doorway experiment in its final days, the names of those who knew vs those who didn't.
 
 #### The Breach Site (endgame final-boss arena, beneath Genesis Vats)
-- **Access**: unseals only after all three structures are reclaimed and the player holds all four elemental Manis. Requires a return trip to the Vats.
+- **Access (two-key gate)**: **all four elemental Manis** to *reach* it (the descent unseals) + the **Prime Focus Lens from Sun-King** to *enter and power* it. Location revealed by Vatlord in Act 2; requires a return trip to the Vats once both keys are held.
 - **Hook**: ground zero — the chamber where Akash was originally refined and The Breach occurred. Heaviest Bleed contamination in the game; the environmental shader/audio presence peaks here.
 - **Final boss**: **Head of Accord Research** (Amphibian; requires all four Manis to defeat). Forced purification → the endgame reckoning. See §6 and [[12 The Akashic and The Bleed#9 The Endgame: The Head of Research & The Final Reckoning|the reckoning]].
 - **No new biome cost**: reuses the Vats environment + one authored boss arena; not a fourth hub.

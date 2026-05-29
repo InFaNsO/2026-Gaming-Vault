@@ -41,9 +41,9 @@ The Vats are now haunted by Amphibian Husks — the working caste, immortal, wan
 
 **Puzzle examples:** route healing vapor into a corrupted refinement hall to make it safe; cut off vapor flow sustaining a Husk-infested rig to weaken enemies in that area; seal a leak bleeding contaminated water into a clean section.
 
-**Player progression:** Reclaim in phases — learn Jal-Mani (Vats Husk 1) then Vayu-Mani (Vats Husk 2, who also delivers the mid-game conspiracy reveal). Each Mani unlocks gear required to progress.
+**Player progression:** Reclaim in phases — learn Jal-Mani (Vats Husk 1) then Vayu-Mani (Vats Husk 2). Both Teaching Husks believe the official lie (an accident while refining) — the conspiracy reveal comes from the boss, not them.
 
-**Boss:** Vatlord — **the Vats site manager**, multi-phase, spawns Vat-Brood, cascading status. **Requires Jal + Vayu to defeat** (gives no Mani). Defends the central vapor regulator. NOT the campaign final boss.
+**Boss:** Vatlord — **the Vats site manager** (he knew the truth). Multi-phase, spawns Vat-Brood, cascading status. **Requires Jal + Vayu to defeat** (gives no Mani). Defends the central vapor regulator. On defeat → attempted purification → **confesses the reality (it was a doorway experiment) + reveals the sealed deep chamber's location, then dies** before teaching the "how" to refine Akash. The mid-game reveal; the one named Husk who does not survive. NOT the campaign final boss.
 
 **Endgame return — the Breach Site:** beneath the Vats is a sealed deep chamber — **ground zero, where Akash was originally refined and The Breach occurred.** Visible but inaccessible on the first visit; unseals at endgame (after all 3 structures reclaimed + all 4 Manis held). The player returns here for the **campaign final boss, the Head of Accord Research** (Amphibian). See [[13 Campaign Structure#6 The Choice (the endgame)|the endgame]].
 
@@ -65,7 +65,7 @@ The Reptile caste worked the Forge — their cold-blooded biology let them opera
 
 **Player progression:** Reach via Drowned Reach mini-locations after Vats reclamation. Learn Agni-Mani (Forge Husk 1). Reclaim the Forge.
 
-**Boss:** Sun-King — **the Forge site manager**, phase 1 = sun pillars (LOS hazards constantly sweeping the arena), phase 2 = burn-everything ultimate. **Requires Agni to defeat** (gives no Mani). Defends the prime focus lens. NOT the campaign final boss — the player returns to the Vats afterward for the Head of Research.
+**Boss:** Sun-King — **the Forge site manager** (he knew the truth). Phase 1 = sun pillars (LOS hazards constantly sweeping the arena), phase 2 = burn-everything ultimate. **Requires Agni to defeat** (gives no Mani). Defends the **Prime Focus Lens** — and on forced purification **hands it over.** The Lens is the second endgame key: the Forge apparatus required to enter and power the sealed Akash chamber beneath the Vats (lore-grounded — the Forge always channelled focused heat/light to the Vats for the most heat-intensive refinement). NOT the campaign final boss — the player returns to the Vats afterward for the Head of Research.
 
 **Audio log themes:** Accord-era Reptile hierarchy, heat refinement protocols, the doorway experiment in its final days, the names of those who knew vs those who didn't.
 

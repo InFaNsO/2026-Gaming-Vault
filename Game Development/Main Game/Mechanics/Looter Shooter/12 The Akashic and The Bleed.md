@@ -19,7 +19,7 @@ The cosmic-horror lore underlying the game's setting. Covers The Breach event, t
 >
 > All Mani in the world was permanently contaminated with traces of The Akashic. The Amphibians and Reptiles, bio-attuned to Mani, absorbed enough radiation to corrupt and **immortalize** them. They became Husks. They have been wandering for millennia.
 >
-> Nobody alive at game-start knows the secret. The Grinders know the Accord existed and that something terrible happened. They do not know about Akash, about the doorway, about the conspiracy. **The first named-NPC purification is when the truth surfaces.**
+> Nobody alive at game-start knows the secret — **not even the Accord's own working researchers.** The Teaching Husks (Accord refiners) sincerely believe The Breach was an accident *while refining* Akash Mani; they were lied to like everyone else. Only the site managers and the Head of Research knew it was a doorway *experiment*. **The truth surfaces when the player defeats Vatlord (the Vats manager boss) and attempts to purify him — he confesses the reality before dying.** The full account waits at the final boss. See §9.
 
 ---
 
@@ -147,16 +147,24 @@ The Head of Research did not just oversee the doorway experiment — he *perform
 
 This is the twist the whole campaign builds toward: the final boss is, in a broken way, **the only being still protecting the world.** The player must defeat the one entity still trying to stop the mistake — in order to gain the *choice* of whether to make it themselves. He sits at the **Breach site, the sealed deep chamber beneath Genesis Vats (ground zero)**, guarding the exact spot where Akash was refined.
 
-### The two-tier truth
+### The escalating truth (the conspiracy was kept even inside the Accord)
 
-- **Mid-game factual reveal** (Vats Husk 2): the player learns *what* happened — the Accord secretly tried to open a doorway to Akash, and that caused The Breach. This powers Act 3 with dramatic irony.
-- **Endgame reckoning** (Head of Research, after forced purification): the player learns the *why* and the *who* — his personal culpability, the guardian truth ("even with nothing left of me, I tried to stop it"), the ambiguous question of what noticed them from the other side, and the framing of the final Choice. *"Do it right — the way we couldn't — or never do it at all."*
+The Accord's own working researchers were lied to. Only management and the Head of Research knew the catastrophe was a *doorway experiment*, not an industrial accident. The truth surfaces in four escalating beats:
 
-Because the player already knows the factual conspiracy from mid-game, the reckoning lands as an **emotional capstone**, not a confusing info-dump — and the Choice that immediately follows feels earned, not rushed.
+1. **The lie** (Teaching Husks — Vats 1, Vats 2, Forge 1): they sincerely believe The Breach was an accident *while refining* Akash Mani. They teach their Mani and repeat the official story, carrying buried unease ("the numbers never explained the scale of it").
+2. **The reveal** (Vatlord, the Vats manager boss, end of Act 2): on defeat, the player attempts purification; in a lucid moment Vatlord confesses the **reality** — it was a doorway experiment — and reveals the **existence and location of the sealed deep chamber** where it was done. **He dies before he can teach the "how."** This is the mid-game reveal that powers Act 3 with dramatic irony.
+3. **The means** (Sun-King, the Forge manager boss, end of Act 3): confirms the account and yields the **Prime Focus Lens**, the Forge apparatus required to enter and power the sealed chamber.
+4. **The reckoning** (Head of Research, final boss, inside the chamber): the *why* and the *who* — his personal culpability, the guardian truth ("even with nothing left of me, I tried to stop it"), the ambiguous question of what noticed them from the other side, **the "how to refine" Akash that Vatlord died before giving**, and the framing of the final Choice. *"Do it right — the way we couldn't — or never do it at all."*
+
+Because the player already knows the factual conspiracy from Vatlord's mid-game reveal, the reckoning lands as an **emotional capstone**, not a confusing info-dump — and the Choice that immediately follows feels earned, not rushed.
+
+### The two-key endgame gate
+
+The sealed Akash chamber beneath the Vats requires both: **all four elemental Manis** (to reach/descend) and the **Prime Focus Lens from Sun-King** (to enter/power it). The player learns the chamber's *location* from Vatlord but cannot act until they have also conquered the Forge — see [[11 Factions and Species#The two-key endgame gate|the two-key gate]].
 
 ### The Choice
 
-**The campaign endgame is not a battle against The Bleed — it is a choice about what kind of civilization to rebuild, and whether to dare reach for Akash again.** The forced purification of the Head of Research is mandatory (he's the final boss), so **every player always receives the safe refinement protocols** — the question is never *can* you, only *should* you. See [[13 Campaign Structure#6 The Choice (the endgame)|the Choice]].
+**The campaign endgame is not a battle against The Bleed — it is a choice about what kind of civilization to rebuild, and whether to dare reach for Akash again.** Because the Head of Research is the mandatory final boss, **every player who reaches the chamber receives the "how" — the safe refinement protocols** — so the question is never *can* you, only *should* you. See [[13 Campaign Structure#6 The Choice (the endgame)|the Choice]].
 
 - **Multi-species cooperation path (good ending):** Player commits to the renewed federation. **A new Akash-Mani is produced** at the player base, stabilized by all four elemental Manis + multi-species cooperation (the protocol the Accord lacked) + the Head of Research's now-lucid guidance. The world heals, The Bleed's pooled zones dissipate over generations, and Akash refinement re-enters civilizational knowledge with the lesson *"never alone, never in secret"* learned in blood. The rebuilt civilization reaches for the "next frontier."
 - **Humans-only path (bad ending):** Player refuses the renewed federation **and refuses to attempt Akash refinement** — even safely, even with the protocols in hand. Humans flourish for one generation on the four elemental Manis alone. With no multi-species cooperation, the refinement chain can never be re-established. Civilization stagnates, then declines. The last human dies alone. **The Bleed outlasts humanity. Akash refinement is lost a second time — this time by choice.**

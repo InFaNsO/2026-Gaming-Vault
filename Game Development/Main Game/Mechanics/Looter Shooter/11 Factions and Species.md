@@ -102,7 +102,7 @@ Combat flavor: **collective swarm + disruption.** Jal-Mani affinity (water/freez
 | **Vat-Brood** | Frontline (swarm) | Scaled-down mesh, come in groups of 4–6, fast melee, low HP each. *Lore: the children of the Vats, preserved as a collective by The Bleed.* |
 | **Tidefall** | Special (exploder) | Slow walker, body crusted with Jal-Mani. On death → AOE **Freeze/Push** burst. *Lore: vapor-workers fused with their own crystallized refinement.* |
 | **Choir** | Support | Stationary, applies **Confusion** to player + **Regen** to nearby Husks. Must be silenced first. *Lore: the collective ritual chanting persists, terribly.* |
-| **Vatlord** (manager boss) | — | Genesis Vats reclamation boss = **the Vats site manager** under the Accord. Multi-phase, spawns Vat-Brood, cascading status. **Gives no Mani — requires Jal + Vayu (learned earlier in the Vats) to defeat.** Forced-purified; becomes ally; gives a *hint* toward the deeper truth. |
+| **Vatlord** (manager boss) | — | Genesis Vats reclamation boss = **the Vats site manager** under the Accord. Multi-phase, spawns Vat-Brood, cascading status. **Gives no Mani — requires Jal + Vayu to defeat.** On defeat, attempted purification → **confesses the reality + the sealed chamber's location, then dies** before teaching the "how." The mid-game reveal; the one named Husk who does not survive. |
 
 ### Reptile Husks (Prism Forge)
 
@@ -113,7 +113,7 @@ Combat flavor: **predator pressure + burn.** Agni-Mani affinity (fire/burn).
 | **Cinder-Stalker** | Special (assassin) | Fast melee. Stiff predator dash — covers huge distance in one move, ignores half-cover on flank approach. *Lore: the working-rank reptiles, weaponized.* |
 | **Ember-Speaker** | Ranged | Stationary caster. Lobs Agni-Mani bolts that apply **Burn**; rare refined fire-AOE. Lowest HP. *Lore: the senior refiners.* |
 | **Forge-Sentinel** | Frontline / Tank | Heavy armored, slow, high HP. Damage-reduction aura. Dies to penetration / flank. *Lore: the ceremonial Forge guards, still in their armor.* |
-| **Sun-King** (manager boss) | — | Prism Forge reclamation boss = **the Forge site manager** under the Accord. Phase 1 = sun pillars (LOS hazards), phase 2 = burn-everything ultimate. **Gives no Mani — requires Agni (learned earlier in the Forge) to defeat.** Forced-purified; becomes ally; gives a *hint* toward the deeper truth. |
+| **Sun-King** (manager boss) | — | Prism Forge reclamation boss = **the Forge site manager** under the Accord. Phase 1 = sun pillars (LOS hazards), phase 2 = burn-everything ultimate. **Gives no Mani — requires Agni to defeat.** Forced-purified → ally; confirms Vatlord's account and **drops the Prime Focus Lens** (the key to enter/power the sealed Akash chamber). |
 
 ### The Head of Research (Final Boss)
 
@@ -159,70 +159,82 @@ Ambient non-combat life (insects, distant silhouettes, set-dressing fauna) may e
 | Tier | Who | Combat role | Purification |
 |---|---|---|---|
 | **Common Husks** | Workers, soldiers, refinery technicians who **didn't know the Accord's secret**. | Generic enemies (Vat-Brood, Tidefall, Choir, Cinder-Stalker, Ember-Speaker, Forge-Sentinel). | Not purifiable. Killed in normal combat — **"killing" them is mercy** (severs the radiation thread, lets millennia-old prisoners finally rest). |
-| **Named / Inner-Circle Husks** | Accord researchers and site managers — **the ones who knew the doorway secret.** Their unusual intelligence vs other Husks comes from their conscious minds being trapped intact when their bodies were corrupted. | **Mini-bosses and bosses.** Combat-tier encounters, unique abilities, distinct silhouettes. | **Forced purification, no kill option** (see below). |
+| **Named Husks — Workers** (Teaching Husks) | Accord *researchers / refiners* who **did NOT know the doorway secret.** They believe the official story: The Breach was an accident *while refining* Akash Mani. They were lied to like everyone else. Their conscious minds survived corruption, but their knowledge is incomplete. | **Mini-bosses.** Teach a Mani. | **Forced purification → ally** (see below). |
+| **Named Husks — Management & Inner Circle** | Site managers (Vatlord, Sun-King) and the Head of Research — **the ones who knew the truth.** Management knew it was a doorway *experiment*, not a refining accident. | **Bosses.** | **Forced purification** — but Vatlord is a scripted exception (dies; see below). |
 
 ### The Named-Husk Hierarchy (org chart, preserved in corruption)
 
-The Accord's command structure survives in the Husks. Three tiers:
+The Accord's command structure survives in the Husks. You climb it in reverse. **Crucially, the secret was kept even inside the Accord** — the working researchers (Teaching Husks) thought the catastrophe was an industrial accident; only management and the Head of Research knew it was a doorway experiment.
 
 ```
-        Head of Research  (Amphibian) ──────────── FINAL BOSS (beneath the Vats)
-          /                       \
+        Head of Research  (Amphibian) ──────────── FINAL BOSS (in the sealed Breach chamber)
+          /                       \                 [knew everything; holds the "how"]
    Vats Manager = Vatlord     Forge Manager = Sun-King
-   (Amphibian, boss)          (Reptile, boss)
+   (Amphibian, boss)          (Reptile, boss)       [knew the truth]
           |                          |
-   Teaching Husks             Teaching Husk
+   Teaching Husks             Teaching Husk          [LIED TO — believe it was a refining accident]
    (Vats 1, Vats 2)           (Forge 1)
 ```
 
 **No named Husks at Lithic Mow** — Husks don't appear in the Grinder valley. The player already knows Bhu-Mani from cryo-memory; the named-Husk mechanic begins at the Vats.
 
-**Tier 1 — Teaching Husks** (researchers; mini-bosses that teach a Mani):
+**Tier 1 — Teaching Husks** (researchers who were lied to; mini-bosses that teach a Mani):
 
-| # | Location | Type | Teaches | Truth tier |
+| # | Location | Type | Teaches | Knows? |
 |---|---|---|---|---|
-| 1 | **Vats — Entry Hub** | Amphibian mini-boss | **Jal-Mani** | First named encounter; introduces the mechanic. *Hint* only. |
-| 2 | **Vats — Inner Sanctum** | Amphibian mini-boss | **Vayu-Mani** | **Mid-game factual reveal** — the Accord secretly tried to open a doorway to Akash; that's what caused The Breach. Powers Act 3 with dramatic irony. |
-| 3 | **Forge — Entry Hub** | Reptile mini-boss | **Agni-Mani** | *Hint* only — references "someone above us," "the deep Vats." |
+| 1 | **Vats — Entry Hub** | Amphibian mini-boss | **Jal-Mani** | No. Believes The Breach was a refining accident. Introduces the mechanic. |
+| 2 | **Vats — Inner Sanctum** | Amphibian mini-boss | **Vayu-Mani** | No. Repeats the official story — but with unease ("the numbers never explained the scale of it"). Plants doubt without revealing. |
+| 3 | **Forge — Entry Hub** | Reptile mini-boss | **Agni-Mani** | No. Same official story, same buried unease. |
 
-**Tier 2 — Manager Bosses** (the heads of each structure; reclamation bosses):
+**Tier 2 — Manager Bosses** (the heads of each structure; they *knew*):
 
-| Boss | Location | Type | Mani gate | Truth tier |
-|---|---|---|---|---|
-| **Vatlord** | Vats reactivation | Amphibian boss | Requires **Jal + Vayu** to defeat. Gives no Mani. | *Hint* — "I only managed this place. He… he was below us all." |
-| **Sun-King** | Forge reactivation | Reptile boss | Requires **Agni** to defeat. Gives no Mani. | *Hint* — "The Forge was never the heart. Go back to the water." |
+| Boss | Location | Mani gate | Role in the truth |
+|---|---|---|---|
+| **Vatlord** | Vats reactivation (Amphibian boss) | Requires **Jal + Vayu** to defeat. Gives no Mani. | **THE MID-GAME REVEAL.** On defeat, the player attempts purification. In a lucid moment Vatlord confesses the **reality** — it was a doorway *experiment*, not a refining accident — and reveals the **existence and location of the sealed deep chamber** beneath the Vats where it was done. **But he dies before he can teach the "how" to refine Akash.** The one named Husk who does NOT survive — the truth-teller doesn't live to see it acted upon. |
+| **Sun-King** | Forge reactivation (Reptile boss) | Requires **Agni** to defeat. Gives no Mani. | Forced-purified → ally. Confirms Vatlord's account and **drops the [[#The two-key endgame gate|Prime Focus Lens]]** — the Forge apparatus required to actually power and enter the sealed Akash chamber. |
 
-**Tier 3 — Final Boss** (the head of the whole Accord research effort):
+**Tier 3 — Final Boss** (the Head of the whole Accord research effort; knew everything):
 
-| Boss | Location | Type | Mani gate | Truth tier |
-|---|---|---|---|---|
-| **Head of Research** | **Sealed deep chamber beneath Genesis Vats — the Breach site** (opens after all 3 structures reclaimed + all 4 Manis held) | Amphibian final boss | Requires **all four Manis (Bhu/Jal/Vayu/Agni)** to defeat | **The endgame reckoning** — full truth, the guardian revelation, frames the Choice. |
+| Boss | Location | Mani gate | Role in the truth |
+|---|---|---|---|
+| **Head of Research** | **Sealed deep chamber beneath Genesis Vats — the Breach site** (the chamber Vatlord named) | Requires **all four Manis** to defeat (to *reach* it) + the **Prime Focus Lens** from Sun-King (to *enter/use* it) | **The endgame reckoning** — the full why, the guardian revelation, AND the **"how to refine" Akash** that Vatlord died before giving. Frames the Choice. |
+
+### The two-key endgame gate
+
+The sealed Akash chamber beneath the Vats requires **two separate keys**, enforcing that both other structures are conquered first:
+
+1. **All four elemental Manis** (Bhu + Jal + Vayu + Agni) — to *reach* the chamber (the descent unseals).
+2. **The Prism Forge Prime Focus Lens** — obtained only by defeating **Sun-King** — to *enter and power* the chamber. Lore-grounded: the Forge always channelled focused heat/light to the Vats for the most heat-intensive refinement; the Akash chamber cannot operate without the prime lens.
+
+So the player learns *where* to go from Vatlord (end of the Vats arc) but cannot act on it until they've also conquered the Forge — a clean "I know my destination, but I must first earn the means" drive for Act 3.
 
 ### Purification mechanic (all named Husks) — **mandatory, no kill option**
 
-Named Husks **cannot be killed**. The player must defeat them in combat *and then* purify them by force, taking away their suffering whether they resist or accept. *"Mercy without consent"* — consistent with the cosmic-horror tone (millennia of half-life ended whether the prisoner is ready or not).
+Named Husks **cannot be killed by player choice**. The player defeats them in combat *and then* purifies them by force. *"Mercy without consent"* — consistent with the cosmic-horror tone.
 
-1. **Combat phase**: mini-boss/boss fight with unique abilities. Manager bosses and the final boss require the relevant Mani(s) to defeat.
-2. **Transmission / revelation** (at critical state): the Husk weakens and speaks.
-   - *Teaching Husks*: **teach their Mani refinement** as a dying-act knowledge transmission (player receives the recipe here) + a hint, or (Vats Husk 2) the mid-game factual reveal.
-   - *Manager bosses*: deliver a **hint** toward the deeper truth.
-   - *Final boss*: delivers the **full endgame reckoning** (see [[12 The Akashic and The Bleed]]).
-3. **Forced purification QTE**: player uses the relevant Mani to anchor the transmutation. (Vats Husk 1, the first, uses the Bhu-Mani the player already knows; the Husk teaches Jal during this beat.)
-4. **Resolution**: Husk reverts to pre-Breach form, joins the player base as an ally, becomes a named character with arc-aware dialogue at the endgame Council Scene.
+1. **Combat phase**: mini-boss/boss fight. Manager bosses and the final boss require the relevant Mani(s).
+2. **Transmission / revelation** (at critical state):
+   - *Teaching Husks*: **teach their Mani** (player receives the recipe) + repeat the official (false) account with unease.
+   - *Vatlord*: confesses the reality + the chamber's location, then **dies** (scripted — the corruption / a thousand years of buried guilt takes him before he finishes).
+   - *Sun-King*: confirms + drops the Prime Focus Lens.
+   - *Head of Research*: the **full endgame reckoning** + the "how" (see [[12 The Akashic and The Bleed]]).
+3. **Forced purification QTE**: player uses the relevant Mani to anchor the transmutation. (Vats Husk 1, the first, uses the Bhu-Mani the player already knows.)
+4. **Resolution**: the Husk reverts to pre-Breach form and joins as an ally — **except Vatlord, who dies.**
 
-> *"Take my knowledge, then take my pain."* For teaching Husks the encounter is one unified beat: fight → transmit → purify. The Mani recipe is unlocked **as part of** the encounter.
+> *"Take my knowledge, then take my pain."*
 
-### Two-tier truth (information design)
+### Information design — escalating truth
 
-- **Hints** (Vats Husk 1, Forge Husk 1, Vatlord, Sun-King): fragments that build intrigue — "someone above us," "go back to the water," "he's still down there."
-- **Mid-game factual reveal** (Vats Husk 2): the conspiracy — *what* happened. Powers Act 3.
-- **Endgame reckoning** (Head of Research, final boss): the *why* + the guardian revelation (his Husk spent a thousand years unconsciously trying to stop Akash re-refinement) + framing the Choice. This can only land at the end.
+1. **The lie** (Teaching Husks): "It was an accident while refining Akash Mani." Believed sincerely; carries buried unease.
+2. **The reveal** (Vatlord, end of Act 2): "It was no accident. It was a doorway. The chamber is *there*." — then he dies. Powers Act 3 with dramatic irony.
+3. **The means** (Sun-King, end of Act 3): the Prime Focus Lens — the player can now reach *and* enter the chamber.
+4. **The reckoning** (Head of Research, finale): the full why + the guardian revelation (his Husk spent a thousand years unconsciously guarding against Akash re-refinement) + the "how" + the Choice.
 
 ### What is and is not gated
 
-- **Mani refinement recipes**: unlocked automatically through the forced teaching-Husk encounters. NEVER gated by player choice.
-- **Boss progression**: each manager boss requires its biome Mani; the final boss requires all four — so the gating is *capability*, enforced by what you've learned.
-- **Council Scene roster**: every named Husk is forced-purified, so all of them (3 teaching Husks + 2 managers + the head of research = **6 Husk allies**) are guaranteed present at the endgame Council Scene for every player. Variance comes from Grinder Trust Arc completion + Cryo-Survivor recruits + dialogue choices.
+- **Mani refinement recipes**: unlocked through the forced teaching-Husk encounters. NEVER gated by player choice.
+- **Endgame access**: capability-gated by the two keys (all four Manis + the Prime Focus Lens from Sun-King).
+- **Council Scene roster**: forced purification means **5 named Husks become allies** (Vats 1, Vats 2, Forge 1, Sun-King, Head of Research). **Vatlord is absent — he died delivering the truth.** His empty place at the council is a deliberate emotional beat. Broader variance comes from Grinder Trust Arc completion + Cryo-Survivor recruits + dialogue choices.
 
 ### Why this works
 
