@@ -41,10 +41,28 @@ The current Grinder civilization remembers Mani as folk-memory — *"the ancient
 
 ### Refined Mani Mapping to Mega Structures
 
-| Refined form | Element | Refining structure |
+| Refined form | Element | Refining structure | Knowledge source |
+|---|---|---|---|
+| **Bhu-Mani** | Earth | Lithic Mow | Player wakes knowing it (cryo-memory). Teaches Grinders. |
+| **Jal-Mani** | Water | Genesis Vats | Vats Named Husk 1 (mandatory mini-boss) |
+| **Vayu-Mani** | Air | Genesis Vats | Vats Named Husk 2 (mandatory mini-boss; also reveals conspiracy) |
+| **Agni-Mani** | Fire | Prism Forge | Forge Named Husk 1 (mandatory mini-boss) |
+| **Akash-Mani** | Ether / Space | Player base (produced at endgame, multi-species path only) | Forge Named Husk 4 (optional mini-boss, head of Accord research) |
+
+### Refined Mani — Combat Role (enchanted weapons)
+
+Each refined elemental Mani can be consumed to **enchant weapons** with elemental attacks. Enchantments apply to:
+
+- **Enchanted bullets** (Mani-infused ammo) — per-shot proc chance of the corresponding status effect on hit
+- **Enchanted knives / melee weapons** — per-hit proc chance, plus passive elemental aura when wielded
+
+| Mani | Combat flavor | Status proc |
 |---|---|---|
-| **Bhu-Mani** | Earth | Lithic Mow |
-| **Jal-Mani** | Water | Genesis Vats |
-| **Vayu-Mani** | Air | Genesis Vats |
-| **Agni-Mani** | Fire | Prism Forge |
-| **Akash-Mani** | Ether / Space | (Lore only — destroyed at The Breach) |
+| **Bhu-Mani enchantment** | Earth / physical | Stagger · Armor break · Knockback |
+| **Jal-Mani enchantment** | Water | Freeze · Slow |
+| **Vayu-Mani enchantment** | Air | Push · Knockdown · Displacement |
+| **Agni-Mani enchantment** | Fire | Burn · Melt armor |
+
+Players progressively unlock more elemental options as they reclaim Mega Structures and meet named Husks. The four elemental enchantments cover the entire status-deck combat layer.
+
+**Akash-Mani is not used for weapon enchantment** — its only manifestation in the campaign is the endgame production sequence (multi-species path).

@@ -110,6 +110,27 @@
         - [ ] **Faction-specific behavior overlays** (Grinders fight as a pack — Mani-ignorant, may self-harm with thrown raw Mani)
         - [ ] Reinforcements drift in from adjacent rooms on later turns if alerted
 
+- [ ] **Enchanted Weapons (refined Mani combat role)**
+    - [ ] **Enchanted bullets** (Mani-infused ammo) — per-shot proc chance of elemental status effect
+    - [ ] **Enchanted knives / melee weapons** — per-hit proc + passive elemental aura when wielded
+    - [ ] Per-element flavor:
+        - [ ] **Bhu** (Earth) — Stagger / Armor break / Knockback
+        - [ ] **Jal** (Water) — Freeze / Slow
+        - [ ] **Vayu** (Air) — Push / Knockdown / Displacement
+        - [ ] **Agni** (Fire) — Burn / Melt armor
+    - [ ] Akash-Mani is NOT used for enchantment — only manifested in endgame production sequence
+
+- [ ] **Named Husks as Mini-Bosses (Topic 8 correction)**
+    - [ ] 4 total named Husks across the campaign (3 mandatory + 1 optional)
+    - [ ] Each is a mini-boss-tier combat encounter with unique abilities
+    - [ ] Each teaches one specific refined Mani:
+        - [ ] Vats Husk 1 (entry hub, mandatory) → Jal-Mani
+        - [ ] Vats Husk 2 (inner sanctum, mandatory) → Vayu-Mani + conspiracy reveal
+        - [ ] Forge Husk 1 (entry hub, mandatory) → Agni-Mani
+        - [ ] Forge Husk 4 (inner sanctum side area, optional, head researcher) → Akash refinement knowledge + bonus weapons for Sun-King
+    - [ ] Post-defeat choice: kill (basic recipe drops, minimal lore) or purify (full lore + ally recruit at Council Scene)
+    - [ ] No named Husks at Lithic Mow (Grinder-only biome; player wakes knowing Bhu-Mani)
+
 - [ ] **Mani System (lore-driven combat resource)**
     - [ ] **Raw Mani Grenade — real-time pressure mechanic**
         - [ ] Pick up Mani shard → live detonation timer starts in hand (~5–8 sec)

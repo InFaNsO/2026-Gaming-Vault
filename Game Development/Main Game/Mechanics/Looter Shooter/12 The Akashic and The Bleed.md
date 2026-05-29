@@ -88,7 +88,7 @@ This is one of the central mechanics. Locked design:
 |---|---|---|---|
 | **Raw Mani (shard)** | **Unknown structure.** Can manifest as any of the elements unpredictably. Random rolls from the **Mani Effect Table** on detonation. | Found as loot; thrown as a live-timer grenade (Bob-omb mechanic from Sparks of Hope). Auto-detonates on timer expiry. | High. Random effects can self-harm. Grinders throw raw Mani in combat and frequently injure themselves — players can bait this. |
 | **Refined elemental Mani** (Bhu/Jal/Agni/Vayu) | **Structured.** Predictable, controllable single-element effects. **Power scales with size** — small shards for safe use, larger crystals for ult-tier effects. | Crafted at Mega Structures the player has reclaimed. Used in ammo, abilities, traversal gear, purification. | Lower per-use, higher per-crystal-size. A fist-sized refined Mani is dangerous to handle. |
-| **Akash-Mani (refined)** | The fifth refined form. **Theoretical only in this game.** Original was destroyed at The Breach. **Refining it again is the act that caused the apocalypse — and is never attempted in this campaign.** | N/A in this game. Sequel territory. | Catastrophic. The Accord proved it. |
+| **Akash-Mani (refined)** | The fifth refined form. Original was destroyed at The Breach. **A new Akash-Mani is produced as the climactic act of the multi-species (good) ending** — refined safely this time, using all four elemental Manis as anchors and multi-species cooperation as the stabilizing protocol the Accord lacked. | Endgame act in the good ending only. Never wielded during gameplay; manifested as the closing beat of the campaign. | Catastrophic without proper protocol — the Accord proved it. Safe only with the head researcher's knowledge (optional Forge Husk) and multi-species cooperation. |
 
 ### Mani Effect Table (raw rolls)
 
@@ -137,10 +137,12 @@ This means **zero animation budget for The Bleed itself.** Shader and audio carr
 
 The original Akash-Mani is destroyed. There is no artifact to recover. The Breach is already sealed.
 
-**The campaign endgame is therefore not a battle against The Bleed — it is a choice about what kind of civilization to rebuild.** See [[13 Campaign Structure]] for the Choice mechanic.
+**However — a NEW Akash-Mani can be refined at endgame, correctly this time, IF the player commits to the multi-species path AND if they have learned the protocols from the optional Forge Husk** (head of Accord research, mini-boss in the Prism Forge inner sanctum side area).
 
-- **Multi-species cooperation path (good ending):** Player purifies enough named Amphibians and Reptiles to seed the rebuilt federation. The three species rebuild together — slowly, carefully, with the Accord's mistakes as warning. The world heals. The Bleed's pooled zones gradually dissipate over generations. **The lost knowledge of Akash refinement stays lost. Forever, by choice.**
-- **Humans-only path (bad ending):** Player refuses to revive the other species. Humans flourish for one generation. With no Amphibian or Reptile cooperation, multi-species refinement chains can never be re-established. Civilization stagnates, then declines. The last human dies alone. **The Bleed outlasts humanity.**
+**The campaign endgame is therefore not a battle against The Bleed — it is a choice about what kind of civilization to rebuild, and whether to dare reach for Akash again.** See [[13 Campaign Structure]] for the Choice mechanic.
+
+- **Multi-species cooperation path (good ending):** Player purifies enough named Amphibians and Reptiles to seed the rebuilt federation. The three species rebuild together — slowly, carefully, with the Accord's mistakes as warning. **A new Akash-Mani is produced at endgame**, stabilized by multi-species cooperation (the protocol the Accord lacked). If the player engaged the optional Forge Husk, the refinement is clean and the rebuilt civilization reaches for the "next frontier." If they skipped, the refinement is tense and improvised but still succeeds; the epilogue is quieter. Either way: the world heals, The Bleed's pooled zones gradually dissipate, and Akash refinement passes back into civilizational knowledge — with the lesson "*never alone, never in secret*" learned in blood.
+- **Humans-only path (bad ending):** Player refuses to revive the other species **and refuses to attempt Akash refinement** — even safely, even with the protocols. Humans flourish for one generation on the strength of the four elemental Manis alone. With no Amphibian or Reptile cooperation, multi-species refinement chains can never be re-established. Civilization stagnates, then declines. The last human dies alone. **The Bleed outlasts humanity. Akash refinement is lost a second time, this time by choice.**
 
 ---
 

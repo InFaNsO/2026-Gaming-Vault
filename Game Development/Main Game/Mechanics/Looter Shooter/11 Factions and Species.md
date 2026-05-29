@@ -144,30 +144,46 @@ Passive cross-faction ambient threats. Wildlife touched by residual Bleed pools.
 
 ## 5. The Purification System (hybrid)
 
-Locked from Topic 2 design discussions.
-
 ### Two tiers of Husks
 
-| Tier | Who | Purification |
-|---|---|---|
-| **Common Husks** | Workers, soldiers, refinery technicians who **didn't know the Accord's secret**. Generic enemies. | Not purifiable. Killed in normal combat — but **"killing" them is mercy** (severs the radiation thread, lets millennia-old prisoners finally rest). |
-| **Named / Inner-Circle Husks** | Accord scientists, doorway operators, "first-through" volunteers — **the ones who knew.** Rare, named, encountered at specific story beats. | Story-gated purification. Encounter triggers a unique combat opportunity. Player can kill or attempt purification. |
+| Tier | Who | Combat role | Purification |
+|---|---|---|---|
+| **Common Husks** | Workers, soldiers, refinery technicians who **didn't know the Accord's secret**. | Generic enemies (Vat-Brood, Tidefall, Choir, Cinder-Stalker, Ember-Speaker, Forge-Sentinel). | Not purifiable. Killed in normal combat — **"killing" them is mercy** (severs the radiation thread, lets millennia-old prisoners finally rest). |
+| **Named / Inner-Circle Husks** | Accord researchers — **the ones who knew the doorway secret.** Their unusual intelligence vs other Husks comes from their conscious research minds being trapped intact when their bodies were corrupted. | **Mini-bosses.** Combat-tier encounters, unique abilities reflecting their pre-Breach research specialty, distinct silhouettes. | Story-gated. Player can kill or attempt purification after defeating them. **Each named Husk teaches the refinement of one specific Mani.** |
 
-### Purification mechanic (named NPCs only)
+### Named Husk Roster — 4 total (3 mandatory + 1 optional)
 
-1. Player encounters a named Husk in a biome (marked differently — slightly distinct silhouette, name displayed, doesn't immediately attack).
-2. Combat begins; player can choose to kill normally or attempt purification.
-3. Purification = consume **1 unit of Refined Mani matching the species** (Jal-Mani for Amphibian, Agni-Mani for Reptile) + complete a short timing / QTE sequence to "anchor" the transmutation.
-4. **On success:** Husk reverts to pre-Breach form, joins the player base as a colonist or party member, gains a story arc. **The first such purification reveals the Accord's conspiracy** ([[12 The Akashic and The Bleed]]).
-5. **On failure:** Husk dies; refined Mani consumed; reputation hit with the would-be ally faction.
+**No named Husks at Lithic Mow** — Husks don't appear in the Grinder valley. The player already knows Bhu-Mani from cryo-memory; the named-Husk teaching mechanic begins at Vats.
 
-### Why this is good
+| # | Location | Type | Teaches | Notes |
+|---|---|---|---|---|
+| 1 | **Genesis Vats — Entry Hub** | Amphibian, **mandatory mini-boss** | **Jal-Mani** refinement | First named Husk encounter of the campaign. Player learns elemental attack expansion. |
+| 2 | **Genesis Vats — Inner Sanctum** | Amphibian, **mandatory mini-boss** | **Vayu-Mani** refinement | **Reveals the conspiracy** — Akash doorway research, the inner circle, the truth about The Breach. Gives lore drop on the Vatlord boss and the Vayu reactivation process. |
+| 3 | **Prism Forge — Entry Hub** | Reptile, **mandatory mini-boss** | **Agni-Mani** refinement | Mirrors the Vats entry-hub pattern. Deeper grief, deeper resolve. |
+| 4 | **Prism Forge — Inner Sanctum side area** | Reptile, **optional mini-boss** — head of Accord research | **Akash refinement knowledge** + **bonus weapons for the Sun-King fight** | The single most senior researcher to survive as a Husk. Engaging them enriches the Akash production sequence at endgame and equips the player for Sun-King. Skipping them is permitted — the multi-species ending still plays but the climactic Akash sequence is tense and improvised. |
 
-- Uses the refined-Mani progression as the *cost* — players have to *want* to save someone enough to spend the rare resource
-- Named encounters become memorable
-- Both outcomes (success / fail) tell a story
-- Generic Husks remain straightforward combat — no scope creep
-- **The first named-NPC purification is the act-one-to-act-two pivot for the entire main game** — see [[13 Campaign Structure]]
+### Purification mechanic (named Husks)
+
+1. **Combat phase**: Player encounters the named Husk in their designated zone. Combat begins — mini-boss-tier fight with unique abilities reflecting their pre-Breach research specialty.
+2. **Post-defeat choice**: After reducing the Husk to a critical state, the player can:
+   - **Kill** — recover the refinement blueprint as loot; Mani recipe unlocked; no allied recruit; minimal lore (one short audio-log fragment).
+   - **Purify** — consume **1 unit of Refined Mani matching the species** (Jal-Mani for Amphibian, Agni-Mani for Reptile) + complete a short timing/QTE sequence. On success: Husk reverts to pre-Breach form, joins the player base as a colonist/ally, **delivers full lore drop**, becomes a named character with arc-aware dialogue at the endgame Council Scene.
+3. **On purification failure**: Husk dies; refined Mani consumed; same outcome as Kill but with the resource cost.
+
+### What progression Is and Is Not gated by
+
+- **Mani refinement recipes** are NOT gated — kill or purify, you learn the Mani. Required for puzzles and combat progression.
+- **Allied recruit + endgame Council Scene presence** ARE gated — only purification yields an ally at endgame.
+- **Lore depth** is gated — purified Husks deliver rich lore, killed Husks leave only fragments.
+- **Akash refinement at endgame** is reshaped by whether the optional Forge Husk was engaged — see [[13 Campaign Structure#6 The Choice (the endgame)|the Choice section]].
+
+### Why this works
+
+- Refinement is never blocked by a player's combat preferences (kill-the-boss players still progress)
+- The good ending's *richness* scales with the player's mercy choices
+- Each named Husk is a memorable mini-boss encounter
+- Refined Mani is the cost of purification — creates real player economy decisions
+- **The first named purification (Vats Husk 1) introduces the mechanic; the second (Vats Husk 2) delivers the conspiracy bombshell** — the act-one-to-act-two pivot for the entire main game ([[13 Campaign Structure]])
 
 ---
 
