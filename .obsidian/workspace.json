@@ -6,7 +6,7 @@
       {
         "id": "7fa4b4247b172846",
         "type": "tabs",
-        "dimension": 60.83032490974729,
+        "dimension": 34.8826714801444,
         "children": [
           {
             "id": "53b87bdad5b3a240",
@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BGamer YT/List Of Games for Future reference.md",
-                "mode": "source",
+                "file": "Game Development/Main Game/Mechanics/Looter Shooter/14 Naming Glossary.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "List Of Games for Future reference"
+              "title": "14 Naming Glossary"
             }
           }
         ],
@@ -42,19 +42,66 @@
       {
         "id": "bbfedd59e88364b2",
         "type": "tabs",
-        "dimension": 39.16967509025271,
+        "dimension": 65.1173285198556,
         "children": [
           {
             "id": "d5770cedb72c92fa",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Game Development/Main Game/Mechanics/Looter Shooter/06 Element in Looter Shooter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06 Element in Looter Shooter"
+            }
+          },
+          {
+            "id": "42d9b3653d565237",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Game Development/Main Game/Mechanics/Looter Shooter/09 Complete Feature List.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "09 Complete Feature List"
+            }
+          },
+          {
+            "id": "94ac3b72fc67da1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Game Development/Main Game/Mechanics/Looter Shooter/10 Unity Code Architecture.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10 Unity Code Architecture"
+            }
+          },
+          {
+            "id": "f3aa2693971283ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Game Development/Main Game/Mechanics/Looter Shooter/13 Campaign Structure.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "13 Campaign Structure"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -203,36 +250,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7686e1e0597a6bf7",
+  "active": "f3aa2693971283ce",
   "lastOpenFiles": [
-    "BGamer YT/Game Recommendations Based On A games different Aspects.md",
-    "BGamer YT/List Of Games for Future reference.md",
-    "BGamer YT/Game Content Formats.md",
+    "CLAUDE.md.tmp.38556.2588241fb41f",
+    "CLAUDE.md.tmp.38556.65a1555c84f1",
+    "CLAUDE.md.tmp.38556.76de18c672de",
+    "Game Development/Main Game/Mechanics/Looter Shooter/12 The Akashic and The Bleed.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/11 Factions and Species.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/10 Unity Code Architecture.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/09 Complete Feature List.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/08 Standalone Prototype - Design.md",
     "Game Development/Main Game/Mechanics/Looter Shooter/07 Civilization - The Grinders.md",
-    "README.md",
-    "Game Development/Main Game/Mechanics/Looter Shooter/00 Looter Shooter.md",
-    "Game Development/Main Game/Mechanics/Magic System",
-    "Game Development/Main Game/Mechanics/Looter Shooter/05 Mega Structures - Game Worlds.md",
     "Game Development/Main Game/Mechanics/Looter Shooter/06 Element in Looter Shooter.md",
-    "Game Development/Main Game/Mechanics/Looter Shooter/01 Goal.md",
-    "Game Development/Main Game/Mechanics/Looter Shooter/Untitled.md",
-    "Game Development/Main Game/Mechanics/Looter Shooter/02 Story.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/05 Mega Structures - Game Worlds.md",
     "Game Development/Main Game/Mechanics/Looter Shooter/04 List of things required.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/00 Looter Shooter.md",
+    "Game Development/Main Game/04 Game Pitch.md",
+    "CLAUDE.md.tmp.44628.1685b188d69a",
+    "CLAUDE.md.tmp.44628.8819adf509c5",
+    "CLAUDE.md.tmp.44628.1b9b213dcf38",
+    "CLAUDE.md.tmp.44628.8ffafec83117",
+    "Game Development/Main Game/Mechanics/Looter Shooter/09 Complete Feature List.md.tmp.44628.b8117090af63",
+    "Game Development/Main Game/Mechanics/Looter Shooter/11 Factions and Species.md.tmp.44628.ee402fcae108",
+    "CLAUDE.md.tmp.37348.b3678582ac74",
+    "CLAUDE.md.tmp.37348.2a7407d00efd",
+    "CLAUDE.md",
     "Game Development/Main Game/Mechanics/Looter Shooter/03 Game Loop.canvas",
+    "Game Development/Main Game/Mechanics/Looter Shooter/02 Story.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/01 Goal.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/15 Grinder Trust Arc.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/13 Campaign Structure.md",
+    "Game Development/Main Game/Mechanics/Looter Shooter/14 Naming Glossary.md",
     "Game Development/Main Game/05 Game Loop.canvas",
     "Game Development/Main Game/06 List Of Game Mechanics.md",
-    "Game Development/Main Game/Mechanics/Looter Shooter",
-    "Mechanics.md",
-    "Game Development/Main Game/Mechanics",
-    "Game Development/Main Game/04 Game Pitch.md",
-    "Game Development/Main Game/01 Concept & Idea.md",
-    "Game Development/Main Game/02 Goals For the Final Game.md",
     "Game Development/Main Game/03 Genre Deep Dive.md",
-    "Game Development/Main Game",
-    "Game Development",
-    "BGAMER Base.md",
-    "BGamer YT",
-    "create a link.md",
-    "Welcome.md"
+    "Game Development/Main Game/02 Goals For the Final Game.md",
+    "Game Development/Main Game/01 Concept & Idea.md",
+    "BGamer YT/Game Content Formats.md",
+    "BGamer YT/Game Recommendations Based On A games different Aspects.md",
+    "BGamer YT/List Of Games for Future reference.md",
+    "README.md"
   ]
 }
