@@ -94,7 +94,7 @@ The player's kit is three lanes, ordered as an **inverse cost ↔ range ↔ risk
 
 **Action economy (3.3) — AP pool (Option B):**
 - One **AP pool** with a cap (ref ~6). **NO carryover** — AP refreshes to a small base each Player Phase. (Carryover dropped: the launcher is fed by Veins, not AP-banking, so carryover had no job left and only weakened parry motivation.)
-- **AP sources:** small **base regen** (ref +2 — the floor, so you can always at least melee, no death-spiral) + **parry generation** (perfect parry = +big AP, block = +small, miss = 0). **Parry is the only way to exceed base each turn → the skill engine.**
+- **AP sources:** small **base regen** (ref +2 — the floor, so you can always at least melee, no death-spiral) + **parry generation** (any successful parry = **+flat AP**, miss = 0; **Perfect parry's extra reward is a Mani Shard drop, not bonus AP** — see Phase 4.2). **Parry is the only way to exceed base each turn → the skill engine.**
 - **Costs (ref):** melee 1 AP · spell 2–3 AP · launcher = Charge + a chunk of AP (so even when stocked it competes within the turn, never spam).
 - **Movement is a SEPARATE budget** (not AP) — protects the close-range-primary identity.
 
@@ -121,6 +121,34 @@ The player's kit is three lanes, ordered as an **inverse cost ↔ range ↔ risk
 - *Reference (7×7):* movement ~3–4 · spell ~3–4 · launcher ~6–7 + AoE radius ~1.
 
 **Naming reconciliation (for Phase 5 doc-sync):** locked docs currently use "shard" for the raw-Mani grenade and say "veins drop shards." New clean split → **Raw Mani** = chaotic live-timer grenade (Effect Table, Grinders' tool, unchanged) · **Mani Shard** = refined spell fuel (new role) · **Mani Vein** = deposit → Launcher Charges (new role).
+
+### Combat — Reactive Layer (Phase 4.2, 2026-06-02)
+
+> The reaction-cam moment — the #1 identity bet. Rules locked; numbers are reference. This loop is what the first gray-box must prove.
+
+**The loop:** Enemy Phase → each enemy attack fires the **OTS reaction-cam** → player chooses **Dodge or Parry** in a timed window → resolve → next attack.
+
+**Reactions (all are TIMED inputs — none is automatic; mistiming = take the hit):**
+
+| Reaction | Dmg taken | Counter vs melee attacker | Counter vs ranged attacker | AP | Perfect bonus |
+|---|---|---|---|---|---|
+| **Dodge** | none | — | — | 0 | — |
+| **Parry – Block** (outer window) | none | counter strike (normal) | **negate only** | +flat | — |
+| **Parry – Perfect** (inner frame) | none | counter strike (**crit**) | **deflect bolt back (crit)** | +flat | **enemy drops a Mani Shard** |
+| **Miss** (either) | **full hit** | — | — | 0 | — |
+
+- **Dodge is forgiving but still timed** — not a free "take-zero" button; a player who can't time even the dodge takes damage, so threat is preserved. Skill gradient: mistime → hit · dodge → safe but no fuel · parry → fuel + counter · perfect → crit + shard.
+- **Both parry tiers grant an immediate counter + flat AP** (AP does NOT scale with Perfect — the P3 "perfect = big AP" line is superseded). Perfect's edge is **more damage back** (crit / deflect) **+ a Mani Shard drop**.
+- **Perfect counter = crit** (honors the 4.1 "parry-counter" crit trigger), for both the melee strike and the ranged deflect.
+- **Ranged rule:** you can't reach a distant attacker, so **Block only negates**; **Perfect deflects the projectile back** for crit damage. This re-creates the Block↔Perfect gradient for ranged that flat-AP removed for melee.
+- **No stamina (prototype)** — reactions are gated by skill (window timing) + risk (parry-miss = full hit), not a resource bar. Add stamina later only if turtle-parry proves dominant (also countered by enemy feints / unparryable attacks).
+
+**Shard drop (Perfect bonus) details:**
+- Drops **on the enemy's tile** — collecting it is a spatial action, not auto-grab. Perfect-parrying a *distant* ranged enemy drops the shard near *them* → you must push into danger to claim it.
+- Makes Perfect parry a **second Mani Shard source** (alongside arena pickups) → feeds the **P3 shard-scope playtest** (battle-scoped vs persistent + drop-rate).
+- **Balance watch:** a skilled parrier farms shards → more advanced spells → more power (the intended skill reward, but a knob to tune via shard value / advanced-spell cost).
+
+**No new meter:** the "build toward a power move" fantasy is already served by **AP → Launcher** (ult-tier, vein-fed). A separate parry-combo meter would duplicate it — omitted.
 
 ### Combat — Damage Model (Phase 4.1, 2026-06-02)
 
