@@ -122,6 +122,24 @@ The player's kit is three lanes, ordered as an **inverse cost ↔ range ↔ risk
 
 **Naming reconciliation (for Phase 5 doc-sync):** locked docs currently use "shard" for the raw-Mani grenade and say "veins drop shards." New clean split → **Raw Mani** = chaotic live-timer grenade (Effect Table, Grinders' tool, unchanged) · **Mani Shard** = refined spell fuel (new role) · **Mani Vein** = deposit → Launcher Charges (new role).
 
+### Combat — Enemy Doctrine & Intent (Phase 4.3, 2026-06-02)
+
+> **Framework locked; the enemy ROSTER is deliberately DEFERRED.** Build one simple enemy to gray-box the loop, then design the per-biome rosters from playtest results.
+
+**Intent telegraph — Into the Breach × Expedition 33 (the two references unify here):**
+- Enemies **telegraph intent** = action + target + **exact (deterministic) predicted damage**. The player reads each incoming attack **twice**: as a *positioning* problem (plan to avoid/mitigate/flank) and as a *timing* problem (the reaction-cam parry). The two references never conflicted — they operate at different moments.
+- **Model B (round-locked) for the prototype:** intents lock at round start and don't change. Simpler.
+- **Explore Model A (live-updating — intent changes as the player moves, so you can manipulate it) during prototyping/playtest.** (Deeper ITB-style play; revisit once the loop is in hand.)
+
+**Combat-AI framework (locked):**
+- **Pack behavior** (Grinders fight as a pack, never alone): ranged units hold distance + focus the player, melee closes, **anti-flank** (face the player, avoid showing their rear), try to **flank/surround** the player; focus-fire spikes how many reaction windows hit at once.
+- **Parryability:** parryable/dodgeable **by default** (the reaction loop is the point); **some attacks are unparryable → must be DODGED/repositioned** (the anti-turtle guard from 4.2, delivered here — forces movement, not just timing). **Feints deferred** to V1/main game.
+
+**Enemy roster — DEFERRED (not locked):**
+- **Prototype = ONE simple enemy** to gray-box the core loop. Grinder-flavored by default (Lithic Mow is the prototype biome). *(User noted "Husk" — combat is biome-agnostic mechanically; reconcile when roster work begins. Husks are main-game Vats/Forge.)*
+- **Full per-biome roster designed AFTER the prototype** shows what each biome needs.
+- *Reference/candidate doctrine (thinking only, NOT locked):* Scout = ranged kiter · Driller = melee gap-closer (flagship parry moment) · Chief = pack coordinator/focus-fire · Shaman = chaotic raw-Mani AoE, Mani-ignorant (baitable self-harm).
+
 ### Combat — Reactive Layer (Phase 4.2, 2026-06-02)
 
 > The reaction-cam moment — the #1 identity bet. Rules locked; numbers are reference. This loop is what the first gray-box must prove.
