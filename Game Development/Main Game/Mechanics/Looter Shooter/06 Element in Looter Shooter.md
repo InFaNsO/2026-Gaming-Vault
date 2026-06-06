@@ -122,6 +122,51 @@ The player's kit is three lanes, ordered as an **inverse cost ↔ range ↔ risk
 
 **Naming reconciliation (for Phase 5 doc-sync):** locked docs currently use "shard" for the raw-Mani grenade and say "veins drop shards." New clean split → **Raw Mani** = chaotic live-timer grenade (Effect Table, Grinders' tool, unchanged) · **Mani Shard** = refined spell fuel (new role) · **Mani Vein** = deposit → Launcher Charges (new role).
 
+### Combat — Spell, Refining, Research & Mani Economy (Phase 4.5, 2026-06-02)
+
+> The spell lane's full economy + the looter engine. Since there are **no guns/armor, Mani IS the loot.** Framework locked; the two minigames' designs, the recipe list, and all numbers are deferred to their own passes.
+
+**The pipeline (one loop = the looter engine):**
+
+```
+LOOT raw Mani → REFINE (minigame) → refined Mani → CAST spells (consumes it)
+   (the drive)    produces fuel        (the fuel)     ↘ RESEARCH (minigame) → unlock spells (permanent)
+```
+
+**Raw Mani = the loot (replaces guns/armor as the loot driver):**
+- Chaotic, **un-elemental**, collected everywhere → "collect as much as possible" is the core drive.
+- **Two grades:** *small raw Mani* (common, scattered → feeds spells) · **Mani Vein / big ore** (rare, biome-elemental deposits → feeds the launcher).
+- **Three sinks** (all pull you to loot more): fire raw (chaotic Effect-Table launcher, early/Grinder), refine→cast, research material.
+- **Persistent** (stashed). Loot handoff: won fight → return to the explore spot → defeated enemies become **lootable bodies there** (raw Mani + materials/gear); in-arena Mani = combat economy; **everything persists, nothing evaporates.** (Loss / HP-attrition / death-drop → task 2.)
+
+**Refined Mani = spell/launcher fuel (you MAKE it, never find it):**
+- Produced by the **Refining minigame** (raw → refined), **gated by which elements you've learned (story).** This is *why* learning-to-refine matters — raw loot is useless until you can refine it (so it never demeans the Husk-teaching beats).
+- **Crystal size = combat lane** (locked lore "power scales with size"): **small refined → spells**; **big refined (from veins) → launcher** (ult-tier).
+- **Consumed on casting.** Casting cost = **AP (turn budget) + refined Mani (fuel)**; launcher = **AP + big refined Mani**; **melee = AP only, no Mani** (the free reliable core). Cost curve holds: melee < spell < launcher.
+
+**The two minigames (the player is the last refiner — their identity, made interactive):**
+- **Refining minigame** = *production* loop (frequent, quick): raw → refined. Lore = **"imposing structure on chaotic Mani."** Score → **yield / quality / efficiency.** (Big-ore refine may be harder/riskier — deferred detail.)
+- **Research minigame** = *progression* loop (occasional, deeper): permanently **unlock/develop spells** (incl. 2-element compounds). Score → **unlock tier / strength / Mani refund** (skill softens the economy). Fits the locked "crafting minigame → rarity bump" pillar.
+
+**Spells:**
+- **Identity = which element(s) you research** (4 single + 6 compound ≈ **10 recipes**); **power = research score + input quality.** *(Dropped: the Infinite-Craft tree, ratio-as-identity, grade-as-identity, and all chaining — chaining is the dream-game's **automation pillar**, out of scope here.)*
+- **Element access = STORY** (Husks teach refining each element). **Spell development = the research minigame.** Clean split → no glass wall.
+- **Akash = learned from the final boss (endgame), NEVER produced by mixing.**
+
+**Economy balance:** raw Mani = root currency; the **extraction loop** governs the haul (combat-spend vs bank-for-research = the Tarkov allocation); **research = capex (permanent unlocks, front-loaded), casting = opex (recurring)** → share the root but don't fight; refining/research *skill* = efficiency; run dry → **melee + parry** (the free skill core). Numbers = playtest.
+
+**Status deck (prototype core):** **Burn / Freeze / Stagger / Push** — surfaced via Bhu + the raw-Mani Effect Table; wired into the 4.1 combo-crit (Freeze→Shatter). Fuller deck = main-game (compounds add more). No-guns relics fixed: **Ink → "Disrupt"** (can't cast/launch) or cut · **"Create cover" removed** (cover cut) · **"Anti-grav lift" cut** or displacement-only.
+
+**Prototype scope:** Bhu-only, but it runs the WHOLE loop (loot raw Mani → refine to Bhu → cast/research Bhu spells / fire raw launcher) — so the **refining minigame + raw-Mani collection IS the prototype's loot+crafting proof.** Compounds + other elements = main-game.
+
+**Reconciliations (these SUPERSEDE earlier sections; full cleanup in the Phase 5 doc-sync):**
+- **P3 resources** → **AP** (per-turn) · **raw Mani** (loot/root, persistent) · **refined Mani** (spell fuel, *made* by refining) · **big refined Mani** (launcher fuel, from vein ore). *(Was: AP / "Mani Shard"-as-spell-fuel / Vein→Charges.)*
+- **P3 shard-scope playtest → RESOLVED: persistent** (research needs accumulation). Battle-scoped option dropped.
+- **Terminology:** **"shard"/raw Mani = the RAW loot**; the spell fuel is **refined Mani**. (Earlier sections used "Mani Shard" for refined spell-fuel.)
+- **4.2 perfect-parry reward** → drops **raw Mani** (loot to refine later), not refined spell-fuel.
+
+**Deferred to their own passes:** the two minigames' designs · the ~10-recipe spell list + compound effects · all numbers (drop rates, cast/refine/research costs, refund %).
+
 ### Combat — Mani Re-fit & Onboarding Progression (Phase 4.4, 2026-06-02)
 
 > Reconciles the locked Mani mechanics with the grid/turn model + sets the combat onboarding ramp. Rules locked; numbers reference.
