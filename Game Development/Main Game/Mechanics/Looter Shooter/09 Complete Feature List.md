@@ -3,9 +3,11 @@
 
 Legend: **[MVP]** ship-blocker · **[V1]** first polish pass · **[Stretch]** nice-to-have.
 
-Combat model = **Sparks of Hope × XCOM × Expedition 33** (kinetic free-form movement with rescued XCOM tactics and reactive timing).
+Combat model (REVISED 2026-06-02) = **grid-tactical (South Park: FbW) × intent telegraph (Into the Breach) × reactive parry (Expedition 33) × tactical↔OTS camera (Valkyria Chronicles).**
 Setting & content = lore-driven (Lithic Mow / Grinders / Mani).
-See [[08 Standalone Prototype - Design]] for design intent and [[10 Unity Code Architecture]] for systems layout.
+See [[08 Standalone Prototype - Design]] for design intent and **[[06 Element in Looter Shooter|06]] "Combat — …" sections for the authoritative combat/Mani-economy spec.**
+
+> ⚠️ **STALE COMBAT/WEAPON/ARMOR/PROCGEN FEATURES (2026-06-02).** The combat redesign (Phases 1–4) overturned much of the detail below. Where any feature conflicts with `06`, **`06` wins.** Specifically superseded: **§C** (free-form dome → tile grid; **cover system CUT**; height/verticality CUT; overwatch CUT; 2-actions → AP/parry economy; deterministic damage now flat with facing/flank arcs, **no armor**); **§D weapons** (NO firearms/calibers/FM-AP-HP ammo → **Mani projectile launchers**; melee free core); **§E Armor — CUT entirely** (mitigation = active parry/dodge); **§ procgen raid assembly → CUT** (authored explore world + authored single-screen arenas, Encounter-Arena model); **Mani** (live-timer grenade → raw-Mani launcher; **raw Mani = loot**, refined Mani = *made* via the **refining minigame**; **research minigame** unlocks spells). The MVP/V1/Stretch tags below will be re-tagged when features are prioritized for the build.
 
 > Lore reference stack: [[14 Naming Glossary]] · [[12 The Akashic and The Bleed]] · [[11 Factions and Species]] · [[13 Campaign Structure]] · [[15 Grinder Trust Arc]]
 
