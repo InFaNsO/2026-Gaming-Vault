@@ -7,9 +7,13 @@
 
 # Concept
 
-A city builder set in the medieval era with where [[Magic]] exists 
+> **Updated 2026-06-06** — superseded the "medieval era" framing. Now set in the **Mani world** (same world as the [[00 Looter Shooter|Looter Shooter]], different era, no plot connection). Full pitch: [[04 Game Pitch]].
 
-- the game will be Inspired from GAMES like sims where there are different people in the city and the player will be responsible to lead them and build a sprawling empire 
-- The goal is to explore the ever changing dungeon and reach the bottom
-- completing the dungeon will unlock progressing resources and tech for the city building
+An **accidentally-immortal** ruler expands his kingdom into a **Bermuda-Triangle-like zone** of mysterious phenomena, colonizing a mysterious island riddled with **Solo-Leveling-style portal dungeons.**
+
+- Runs **one persistent Main City** + a **Satellite City** on the island (Anno-style city-building with multi-town logistics)
+- **Delve the portal dungeons** (looter-shooter combat) for **otherworldly tech that advances the civilization's era**
+- **Mani spell-engineering** (automation — build spells inside gems) is your dungeon power
+- **Fail to clear a dungeon in time → its beasts break out and destroy the island city → re-animate in the Main City → do it again** (the roguelike loop)
+- Two answers to every open dungeon: **clear it**, or **defend the island** against the break
 
