@@ -55,13 +55,14 @@
 - Raw Effect Table (chaos)
 
 ## 3. Automation / Spell-Engineering *(automation pillar — the dream-game signature)*
+> **SCOPE NOTE:** spell *mixing* is **expanded to the MAX here** — chaining, deep multi-element combination, the full Infinite-Craft-style depth. The **2-element-compound cap is a Looter-Shooter scope-limit ONLY**, not the dream game's ceiling. This pillar is where the real combinatorial depth lives.
 - Gem-factory system (factory built inside the gem)
 - Resource nodes (count = gem size)
 - Particle-system spell construction (the spell IS the output)
-- Production chains (Modulus-style modular components)
+- Production chains (Modulus-style modular components — chaining / deep combination)
 - Research
   - Unlock / develop spells
-  - 2-element compounds
+  - Spell mixing — full depth (NOT capped at 2 elements; that cap is LS-only)
   - Spell library
 
 ## 4. Loot System *(looter pillar)*
