@@ -1,7 +1,7 @@
 
 # Looter Shooter — Overview
 
-> The looter-shooter pillar, shipped first as a standalone prototype before integration into the main game. Stealth-extraction looter set on the outskirts of Lithic Mow with a **Sparks of Hope × XCOM × Expedition 33** tactical combat model and a procgen room library that carries forward to the main game's dungeon system.
+> The looter-shooter pillar, shipped first as a standalone prototype before integration into the main game. Stealth-extraction looter set on the outskirts of Lithic Mow with a **grid-tactical, dual-camera, reactive-parry** combat model (South Park: FbW grid × Into the Breach intent × Expedition 33 parry × Valkyria Chronicles camera) and a **Mani-is-the-loot** economy. Combat = self-contained **authored** arenas (Encounter-Arena model — no procgen; procgen is a dream-game feature). **Authoritative combat/Mani spec: [[06 Element in Looter Shooter|06]] "Combat — …" sections** (locked 2026-06-02).
 
 ---
 

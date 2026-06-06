@@ -21,7 +21,7 @@ The Accord secretly used refined Akash-Mani as a **doorway to Akash** (the sourc
 
 ### Mani's Role in the Present World
 
-The current Grinder civilization remembers Mani as folk-memory — *"the ancients made things from it"* — but no one alive can refine it. Raw Mani ore is sometimes scavenged from old Accord sites and used as crude grenades with **unpredictable, often self-harming effects** (the chaotic potential rolled live, unfiltered). Grinders frequently injure themselves with their own Mani throws — the player can bait this in combat.
+The current Grinder civilization remembers Mani as folk-memory — *"the ancients made things from it"* — but no one alive can refine it. Raw Mani ore is scavenged from old Accord sites and fired from **crude launchers** with **unpredictable, often self-harming effects** (the chaotic potential rolled live on impact via the Effect Table, unfiltered). Grinders frequently injure themselves and their allies with their own raw-Mani shots — the player can bait this in combat. *(See the Phase 1–4.5 "Combat — …" sections below for how raw Mani functions in combat: it is the unrefined launcher ammo.)*
 
 **The player is the last carrier of refinement knowledge.** Teaching the Grinders to make the first Bhu-Mani is the watershed moment of the trust arc ([[15 Grinder Trust Arc]]).
 
@@ -120,7 +120,7 @@ The player's kit is three lanes, ordered as an **inverse cost ↔ range ↔ risk
 - **Movement = separate budget, splittable** around the action (move → attack → move) for kiting / flanking reposition — **EXCEPT the launcher is heavy and roots you** (no move after firing; revives the good part of the old "commit-to-the-shot" rule for one lane only).
 - *Reference (7×7):* movement ~3–4 · spell ~3–4 · launcher ~6–7 + AoE radius ~1.
 
-**Naming reconciliation (for Phase 5 doc-sync):** locked docs currently use "shard" for the raw-Mani grenade and say "veins drop shards." New clean split → **Raw Mani** = chaotic live-timer grenade (Effect Table, Grinders' tool, unchanged) · **Mani Shard** = refined spell fuel (new role) · **Mani Vein** = deposit → Launcher Charges (new role).
+**Naming (FINAL — superseded by Phase 4.5; this P3-era note is kept for history):** the terms settled in 4.5 as → **Raw Mani** = the un-elemental **loot** (fired raw via launcher = Effect Table chaos; or refined). **Refined Mani** = the spell/launcher **fuel** (you *make* it via the refining minigame; small→spells, big→launcher). **Mani Vein** = a big-ore deposit → big refined Mani (launcher). *("Mani Shard" as "refined spell fuel" — the intermediate idea here — was dropped; "shard"/raw Mani now means the raw loot.)*
 
 ### Combat — Spell, Refining, Research & Mani Economy (Phase 4.5, 2026-06-02)
 
