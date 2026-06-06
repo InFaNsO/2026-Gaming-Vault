@@ -1,27 +1,164 @@
+# Dream Game — Full System Inventory
 
-[[Mechanics/]]
-# [[00 Looter Shooter|Looter Shooter]]
+> Complete system tree of the four-pillar dream game, ordered most-central → down. Used to carve out the **granular testbed games** (each small game proves one system or a small combination — see the build ladder in `CLAUDE.md`). Living list — refine as we go.
 
-- Inspired from **XCOM 2**, **Mario + Rabbids**, and **Expedition 33**
-- Turn-based tactics with **deterministic damage** (no hit% RNG)
-- **Movement-as-mechanic** — dash-through, traversal points, team-jump (party only)
-- **Reactive parry/dodge** layer on enemy turns (Expedition 33)
-- **Intent telegraphs** above every enemy (STS2 contract)
-- **Cover + flanking + overwatch** (XCOM)
-- **Status effect deck** — burn, freeze, push, honey, vamp, ink, suppressed (Mario + Rabbids), narratively tied to [[Mechanics/Looter Shooter/06 Element in Looter Shooter|Element]]
-- Combat runs inside **procedurally assembled rooms** — same procgen tech as the dungeon system
+## 1. Combat *(action core — dungeon-crawler pillar; fully designed, see [[Mechanics/Looter Shooter/06 Element in Looter Shooter|LS 06]])*
+- Format
+  - Tactical (single-screen tile grid, side-based phases)
+  - Reactive (souls-like parry / dodge)
+- Camera
+  - Dual-camera (tilted-3/4 tactical ↔ OTS reaction-cam)
+  - Blend / transition system
+- Action economy
+  - AP pool (parry-fed, no carryover)
+  - Separate splittable movement budget
+- Weapons (3 lanes)
+  - Melee (free, adjacent)
+  - Spells (refined Mani, mid)
+  - Launcher / ultimate (big Mani, AoE)
+- Damage model
+  - Deterministic flat damage
+  - Facing & flank arcs (Front / Side / Rear→crit)
+  - Earned crit (flank / parry / status-combo)
+- Reactive layer
+  - Parry (Block / Perfect) + counter
+  - Dodge
+  - Ranged deflect
+- Status effects
+  - Burn / Freeze / Stagger / Push
+  - Combos (Freeze→Shatter)
+- Enemy
+  - AI (goal-based, pack, anti-flank, focus-fire)
+  - Intent telegraphs
+  - Weapons
+    - Ranged
+    - Melee
+  - Roster (per-biome)
+- Positioning / hazards
+  - Hazard-push
+  - Collision damage
+  - No cover / no armor / no height
+- Encounter Arena
+  - Transition in / out
+  - Alert / approach carry
+  - Loot resolution on return
 
-# [[Procedural Level Generation]]
+## 2. Mani System *(the substance — connective tissue: combat + automation + loot)*
+- Raw Mani (loot)
+  - Small (common → spells)
+  - Veins / big ore (rare, biome-elemental → launcher)
+- Refining minigame (raw → refined, gem-size scaling)
+- Refined Mani (spell / launcher fuel, consumed on cast)
+- Elements
+  - Bhu / Jal / Vayu / Agni
+  - Akash (endgame)
+- Raw Effect Table (chaos)
 
-- Inspired from hades and dead cells for dungeon exploration
+## 3. Automation / Spell-Engineering *(automation pillar — the dream-game signature)*
+- Gem-factory system (factory built inside the gem)
+- Resource nodes (count = gem size)
+- Particle-system spell construction (the spell IS the output)
+- Production chains (Modulus-style modular components)
+- Research
+  - Unlock / develop spells
+  - 2-element compounds
+  - Spell library
 
-# [[City Building]]
+## 4. Loot System *(looter pillar)*
+- Item definitions + rarity (Common → Legendary)
+- Inventory
+  - Grid-based
+  - Weight
+  - Containers
+  - Stacking
+- Loot generation / drops (enemies, dungeons, veins)
+- Equipment / gear
+  - Mani launchers
+  - Focuses
+  - Mod slots
+- Salvage
 
-- Inspired from Islanders where building adgacency gives bonus and fulfill certain demands of society 
-- something on the lines of universim
+## 5. City-Building *(city pillar — Anno-style)*
+- Building placement + adjacency bonuses
+- Population / colonists
+  - Needs
+  - Demands
+  - Happiness
+- Production chains / resource economy
+- Multi-town logistics
+  - Main City ↔ Satellite
+  - Resource transfer routes
+- City tech / era progression
+- Defenses (tower-defense vs dungeon-breaks)
+- Two-city structure
+  - Persistent Main City
+  - Ephemeral Satellite City
 
-# [[Automation - Magic System]]
+## 6. Dungeon System *(the threat loop — Solo-Leveling portals)*
+- Portal / gate spawning
+- Dungeon-break clock (the keystone tension — juggling multiple)
+- Clear-vs-defend resolution
+- Dungeon ranks / difficulty
+- Boss encounters
+- Rewards
+  - Loot
+  - Era-advancing otherworldly tech
 
-- a Modulus inspired system where the player will be given basic machines and will be responsible for generating spells using MANA Crystals  
+## 7. Procedural Generation *(powers dungeons; maybe islands)*
+- Dungeon procgen
+  - Room prefab library
+  - Layout assembler (grammar / WFC)
+  - Encounter director (enemy placement)
+  - Loot director
+  - Navmesh / runtime bake
+- Island / world procgen (maybe — the Triangle's islands)
+- Seeding + variety control
 
+## 8. Roguelike Structure
+- Run structure (colonize → delve → fall → re-animate)
+- Re-animation / death loop
+- Persistent vs run split
+  - Persist: Main City + tech + knowledge
+  - Reset: Satellite city
+- Meta-progression
+- Difficulty escalation across runs
 
+## 9. Storytelling / Narrative *(roguelike-storytelling pillar)*
+- Story delivery (through dungeons + the Triangle mystery)
+- Character system (the immortal protagonist, NPCs)
+- Branching / emergent narrative (RNG + player-choice influenced)
+- Lore delivery
+  - Audio logs
+  - Environmental
+  - Dialogue
+- Consequence / legacy system
+
+## 10. Extraction / Raid Loop
+- Raid structure (deploy → delve → extract)
+- Extraction tension (ship loot home before the island falls)
+- Death-drop / insurance / loss-on-fail
+
+## 11. Economy / Trading
+- Vendor / shop (buy / sell Mani + goods)
+- Pricing / supply-demand
+- Faction reputation
+
+## 12. Meta-Progression & Save
+- Save / load system
+- Skill tree / permanent unlocks
+- Blueprint / recipe unlocks
+- Era / tech progression tracking
+
+## 13. Foundational Tech *(engine architecture — see [[Mechanics/Looter Shooter/10 Unity Code Architecture|LS 10]])*
+- Game state machine
+- Service locator + typed event bus
+- ScriptableObject data layer
+- Camera systems
+- Input system
+- UI / UX framework
+
+## 14. Art & Audio Systems
+- One-rig art discipline (shared humanoid rig)
+- Mani VFX / particle systems (= also the automation output)
+- Shaders (corruption / elemental)
+- Audio (SFX, music, audio logs)
