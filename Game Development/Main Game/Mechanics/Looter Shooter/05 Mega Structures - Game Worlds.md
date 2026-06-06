@@ -19,7 +19,7 @@ A single great river connects all three structures geographically. The player jo
 
 A massive drill placed between two mountains, drilling down into the valley floor to mine ultra-rare raw Mani ore. Surface infrastructure includes mining camps, drill machinery rooms, and ore-processing stations. The Grinders — descendants of the Accord's human working caste — have lived in the valley for generations and use the surface ruins as their home. The drill itself has been silent for millennia.
 
-**Signature mechanic:** vertical descent + drill reactivation. Bhu-Mani-gear required to shore up unstable shafts, repair collapsed routes, and create cover for combat in open chambers.
+**Signature mechanic:** vertical descent + drill reactivation (an *exploration/traversal* mechanic — combat itself is single-plane, no height). Bhu-Mani-gear required to shore up unstable shafts, repair collapsed routes, and clear/stabilize hazards (Mani veins, cave-ins) that become arena ingredients.
 
 **Player progression:** Reclaim the drill alongside the Grinders. First mass-production of Bhu-Mani. Establish player base at the valley. See [[15 Grinder Trust Arc]] for the Drill Assault sequence.
 
@@ -27,7 +27,7 @@ A massive drill placed between two mountains, drilling down into the valley floo
 
 **Audio log themes:** pre-Breach mining operations, Grinder ancestor castes, hints that the drill was producing more raw Mani than the Accord publicly reported.
 
-**Sub-themes for procgen room library:** Mining tunnels (tight LOS, ambush corridors) · Drill machinery rooms (multi-level vertical) · Outdoor camp areas (open ground with scavenged shelter) · Mani vein chambers (destructible cover, chaos-reward zones).
+**Sub-themes (authored explore world + authored arena pool — no procgen in prototype):** Mining tunnels (tight ambush corridors) · Drill machinery areas (industrial setpieces, single-plane) · Outdoor camp areas (open ground) · Mani vein chambers (big-ore deposits + arena hazard ingredients).
 
 ---
 
