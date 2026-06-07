@@ -8,7 +8,15 @@
 
 A **Mani-using civilization where Mani is everyday infrastructure** — not just a weapon/spell substance, but the thing that **makes daily life easier, the way electricity did for us.** You administer and grow this civilization's settlements. Cozy magitech with real systemic depth.
 
-**Tone (LOCKED):** cozy-builder *under siege* — a beautiful, optimistic infrastructure builder with a genuine threat layer (see Tower Defense below). Gentle-DSP / Against-the-Storm end of the spectrum, **not** Factorio-brutal, **not** pure zen-cozy.
+**Tone (LOCKED, revised 2026-06-07 — TD removed):** **cozy magitech** — a beautiful, optimistic infrastructure builder, **no combat / no tower-defense** in the prototype. Tension comes from **economic & logistics mastery** (Anno-style: keep a multi-biome, multi-species portfolio balanced), not an external threat. Cozy, but with real systemic depth. Not Factorio-brutal, not zen-empty.
+
+## Design identity — "intimate towns, grand network" (LOCKED 2026-06-07)
+
+The center of gravity = **Town-to-City's cozy soul + Anno's production/logistics brain**, unified by Mani-as-infrastructure.
+- **Intimate at the town level:** small, hand-planned, **town-scale** settlements (not metropolises). **Household granularity** (a house = a family). The joy is the **planning puzzle** — desirability from what a building sits near, leaving room for arriving families (see `09 Town Planning & Desirability`).
+- **Grand at the network level:** scale/grandeur comes from the **multi-town network** (Anno production chains + multi-island/multi-map logistics *between* towns), NOT from individual-city size.
+- **Zoom in** to lovingly plan a cozy town; **zoom out** to run the production empire.
+- **Optional growth:** a town is complete at a comfortable size; expansion is available, never forced (see `08`).
 
 ## Era / frame (PROPOSED — working frame)
 
@@ -39,7 +47,8 @@ All four species coexist and thrive (the LS only shows them ruined/Husked; here 
 
 - **3-tier logistics ladder** (the Anno scaling the references love): (1) single island → (2) multi-island within a biome-map → (3) multi-map across biomes (inter-region shipping).
 - **Unlocking a new biome-map advances three systems at once:** logistics scope + era progression + a new species/new Mani. One axis, triple payoff.
-- **Main City** = your primary island in the **Bhu** starting map (all four species); **satellites** = single-species islands in the other biome-maps. The Main City can't self-supply → imports Jal/Agni/Vayu Mani + species goods → **mutual-dependency logistics web** (Anno engine).
+- **Each biome-map = ~2–4 islands (DSP model):** **1 big "home" island** = the biome's hand-planned cozy main town + **1–2 small islands** = lean **mining/extraction outposts** (minimal population — keeps cozy planning focused on the home towns). Expansion is **fractal**: grow big-island → outpost-islands *within* a map, the same way you grow biome → biome *across* maps.
+- **The home towns (≈ 4 total):** **Bhu** big island = the **Main City** (all four species); the **Jal / Agni / Vayu** big islands = **single-species** cozy towns. The Main City can't self-supply → imports Mani + species goods → **mutual-dependency logistics web** (Anno engine).
 - **Islands = procgen** (LOCKED). *(The procgen sophistication level + how it relates to the other games' procgen needs = deferred to a dedicated **cross-game procgen-planning discussion** — which will also inform dev-ordering across all games.)*
 - **NO AI-controlled colonies** — every island/colony is player-managed (see Hard constraints).
 
@@ -58,12 +67,13 @@ Each element keeps its **locked elemental nature** (the same nature behind its c
 - **Vayu (Air)** — ventilation, pneumatic intra-city transport, **propulsion for the barges/ships that do inter-colony logistics**, cranes/lifting.
 - **Akash (Ether)** — **the tech-tree capstone (LOCKED 2026-06-07): space-time manipulation, "potentially limitless."** NOT a biome-map you settle — **synthesized, not harvested**, *achieved* by mastering the other four elemental economies (the era-cap gate). Mechanics: **space-folding → instant inter-map transfer / portals between colonies** (the logistics endgame — conquering distance), and **time-bending → production acceleration / stasis (no decay)**. Fits locked LS lore (*Akash is produced at endgame, "learned not mixed," never just found*). **Callback:** Akash space-time portals = interdimensional gates = the Breach-echo — the city game's triumphant "limitless" capstone is the same phenomenon that becomes catastrophe in the LS era. Limitless **but dangerous** = the quiet Breach foreshadow.
 
-## The threat — Tower Defense (LOCKED: included; specifics PROPOSED)
+## Tension & threat (LOCKED, revised 2026-06-07 — TD REMOVED)
 
-The threat is **wild Mani fighting back**: raw Mani surges that animate into hostile **elementals / Mani-constructs** besieging the colonies. **DSP-style automated tower defense** — you build **refined-Mani-powered turrets/walls** (Agni cannons, Vayu repulsors, Bhu walls…) to hold the line; you do **not** field a tactical squad (that's the combat games / dungeon delves).
+**No tower-defense, no combat threat in the city game.** Tension comes purely from **economic & logistics mastery** (Anno model): keeping a multi-biome, multi-species production/logistics portfolio balanced so no colony starves, while climbing the tier ladder and affording the Akash Synthesis. The logistics web + the multi-element-goods-force-trade hook generate the stakes on their own.
 
-- **Systemic loop (PROPOSED):** harvesting/expanding more raw Mani → draws bigger wild-Mani assaults → defend with refined-Mani infrastructure. (DSP's pollution→aggro, made Mani-native.) Defenses are *another* use of Mani-as-infrastructure.
-- **Forward-map to the dream game:** wild-Mani besieging a colony → dungeon-beasts breaking out and besieging the island. **Same automated-defense loop, upgraded.** This game develops the dream game's *automated city-defense* system — distinct from the tactical dungeon combat, so it's non-redundant.
+- **Tower-defense is RESERVED for the dream game** (the Dungeon/Roguelike integration, its original build-plan slot), where its real context lives (dungeon-break clock + clear-vs-defend). Rationale: the threat kept failing the enthusiasm test against the cozy identity; and only *actual* TD forward-maps to the dream game's TD, so once it leaves, the city game's tension is chosen for "best cozy game."
+- **Environmental Mani-weather** (heat-waves / floods / surges as resilience flavor) = **DEFERRED — revisit AFTER the prototype** (user, 2026-06-07). Not in the prototype.
+- **No wild-Mani-construct enemies** (they existed only to feed TD — removed with it).
 
 ## Build model — grid + free decoration (LOCKED 2026-06-07, **CROSS-PORTFOLIO**)
 
@@ -77,16 +87,17 @@ The threat is **wild Mani fighting back**: raw Mani surges that animate into hos
 
 ## Hard constraints (LOCKED)
 
-- **NO AI-controlled colonies** — friendly or hostile. All colonies are **player-managed directly** (Anno multi-island style, all player-owned). No rival civs, no diplomacy, no AI allies. The only "opponent" is the emergent wild-Mani threat.
+- **NO AI-controlled colonies** — friendly or hostile. All colonies are **player-managed directly** (Anno multi-island style, all player-owned). No rival civs, no diplomacy, no AI allies. There is **no combat opponent at all** in the prototype — the only "opponent" is your own economy/logistics (Anno-style).
 
 ---
 
-## Systems in scope (LOCKED list)
+## Systems in scope (LOCKED list — 4 systems; revised 2026-06-07, TD removed)
 
 1. **Production-chain management** (Mani refining + goods)
 2. **Logistics management** (intra- and inter-colony)
 3. **Multi city / island colonies** (Main City + single-species satellites)
-4. **Tower defense** (automated, vs wild-Mani constructs)
-5. **Era progression**
+4. **Era progression**
+
+*(Tower defense — formerly #4 — is **reserved for the dream game**. Environmental Mani-weather threat = **deferred**, revisit post-prototype.)*
 
 > Depth allocation + per-system scoping → `05 Systems & Scope.md` (in progress).

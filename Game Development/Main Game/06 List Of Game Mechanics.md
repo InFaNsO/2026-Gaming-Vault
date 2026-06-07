@@ -80,7 +80,7 @@
 - Salvage
 
 ## 5. City-Building *(city pillar — Anno-style; DESIGN IN PROGRESS 2026-06-07 → see `Mechanics/City Builder/` 03/04/05)*
-> **Locked direction:** Anno biome-as-map (Bhu/Jal/Agni/Vayu + Akash space-time tech capstone) · 4 species (incl. new **Avian** — canon ripple) · 3-tier population w/ escalating Mani-element complexity · Mani-as-infrastructure economy (utilities + Mani-tech goods, multi-element goods force trade) · refining-as-building · **automated DSP-style TD vs wild-Mani constructs** (developed here) · **grid substrate + free decoration** (cross-portfolio) · procgen islands · NO AI colonies.
+> **Locked direction:** Anno biome-as-map (Bhu/Jal/Agni/Vayu + Akash space-time tech capstone) · 4 species (incl. new **Avian** — canon ripple) · 3-tier population w/ escalating Mani-element complexity · Mani-as-infrastructure economy (utilities + Mani-tech goods, multi-element goods force trade) · refining-as-building · **NO TD/combat** (reserved for the dream game; tension = pure economic/logistics; environmental-weather threat deferred to post-prototype) · **grid substrate + free decoration** (cross-portfolio) · procgen islands · NO AI colonies.
 - Building placement + adjacency bonuses
 - Population / colonists
   - Needs

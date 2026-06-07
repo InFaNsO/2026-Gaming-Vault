@@ -75,6 +75,19 @@ The all-4-element stage is **a great-work / monument you construct**, sitting *a
 
 Refining is a **scalable, automatable production building** with depth via **efficiency / quality / throughput upgrades** (Anno "expand → more output") — **NOT** a per-instance manual minigame like the Looter Shooter. City scale wants automation, not manual minigames. *(Relationship to the LS refining minigame + dream-game fusion: flagged for the cross-game reconciliation.)*
 
+## 2.5 Building expansion — capacity scales via Mani (LOCKED logic 2026-06-07; numbers TBD)
+
+Anno's **"expand a building → more output,"** wired into the Mani economy: **a building's capacity ceiling is unlocked in steps, each step gated by feeding it a specific, thematically-matched refined Mani element.** This makes **Mani the building-upgrade currency** (on top of utility-input + goods-input) and is *another* driver of multi-element trade.
+
+**Example — Farm (food):** base **100** tiles (Mani-free) → **+Bhu** expansion (soil/fertility) → higher → **+Jal** expansion (irrigation) → **max 500**. *(Numbers are placeholders; the LOGIC is locked: low Mani-free base → elemental expansion steps → ceiling.)*
+
+- **Thematic match (LOCKED):** the elements that expand a building fit its function — Farm = **Bhu** (soil) + **Jal** (water); Smelter = **Agni**; etc. Each building has a short **elemental expansion path**. This *also* means a building can't be maxed from one biome → reinforces inter-biome trade.
+- **OPEN sub-decision — upgrade cost model:** **(a) one-time** material/Mani cost to build the expansion (simple, Anno-like) vs **(b) ongoing Mani feed** to *sustain* the higher capacity (the building is "plugged into" continuous Bhu/Jal supply, like an appliance on a power grid — lose the feed → capacity throttles back). **Rec: (b), likely a hybrid** (one-time build cost + ongoing feed to run at capacity) — it fits the Mani-as-infrastructure theme and wires building output into the **logistics supply tension** AND the **TD threat** (sever a route → buildings throttle down). *Decide in Phase 3 / playtest.*
+
+## 2.6 Money & economy (LOCKED 2026-06-07) — Anno model + light lever
+
+**Anno-style money balance** (NOT a Cities:Skylines budget-sim). Income = **passive tax** from happy households (scales with tier × happiness) + **trade income** from selling surplus Mani/goods; expenses = **building upkeep** (+ the ongoing-Mani-feed from §2.5). Net balance; running dry stalls growth. Plus **one light tax↔happiness lever** — raise levies for more income at a happiness cost (the "greed vs happiness" knob the references value). Deep market / dynamic-pricing / policy-slider simulation = **OUT** (see `08`).
+
 ## Scope discipline (LOCKED)
 - **Bounded materials tree** (~5 classic chains, not Anno's 50-good sprawl). Prove the *pattern* deeply, add breadth additively later — same discipline combat used.
 
