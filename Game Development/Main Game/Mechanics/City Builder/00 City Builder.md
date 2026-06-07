@@ -37,6 +37,15 @@ Mani elements & lore reused from the [[00 Looter Shooter|Looter Shooter]]; **Aka
 - `08 Scope & Depth Allocation` — the DEEP / BOUNDED / CUT leash.
 - `09 Town Planning & Desirability` — the cozy planning pillar.
 
+## Build decomposition (decided 2026-06-07)
+
+The city pillar ships as **3 complete games** (mirroring the combat split — two proving-games + a fusion):
+1. **Cozy Mani-Town Builder** — perfects needs / desirability / cozy planning (single town).
+2. **Mani Logistics Game** — perfects network management, **decoupled from city micro** (⚠ needs its own purpose: "what is the network *for*").
+3. **The City Builder (fusion)** — *this* full design (Phases 0–6); games 1+2 fold in additively.
+
+Order **1 → 2 → 3** (1/2 reorderable). ⚠ Game 1 must be "the cozy gem," not "Game 3 minus features."
+
 ## Status
 
-**Design Phases 0–6 complete.** Remaining: build-time detail (UI/QoL, numbers, goods list, tech-tree contents, art) · the cross-game **procgen-planning discussion** · the **1-game-vs-staged build decision** (see session final report).
+**Design Phases 0–6 complete** (this design = primarily **Game 3, the fusion**). Remaining: build-time detail (UI/QoL, numbers, goods list, tech-tree contents, art) · the cross-game **procgen-planning discussion**.
