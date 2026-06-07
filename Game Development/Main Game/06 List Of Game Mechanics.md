@@ -56,14 +56,22 @@
 
 ## 3. Automation / Spell-Engineering *(automation pillar — the dream-game signature)*
 > **SCOPE NOTE:** spell *mixing* is **expanded to the MAX here** — chaining, deep multi-element combination, the full Infinite-Craft-style depth. The **2-element-compound cap is a Looter-Shooter scope-limit ONLY**, not the dream game's ceiling. This pillar is where the real combinatorial depth lives.
-- Gem-factory system (factory built inside the gem)
-- Resource nodes (count = gem size)
-- Particle-system spell construction (the spell IS the output)
-- Production chains (Modulus-style modular components — chaining / deep combination)
-- Research
-  - Unlock / develop spells
-  - Spell mixing — full depth (NOT capped at 2 elements; that cap is LS-only)
-  - Spell library
+> **DESIGN PASS IN PROGRESS (2026-06-08) — see `Mechanics/Automation/00`–`07`.** Framing = a **spell-gear workshop** (Accord frontier-boom era); **two surfaces** (A spell-design / B production); **Conjuration Engineering**; **14-element matrix** (capped at 3-Mani here; full depth = dream game); **competitor-AI v1** (market-level start of the cross-portfolio AI thread). The earlier "cozy-management" candidate is superseded → **tone = competitive market.**
+- **Surface A — Conjuration Engineering** (spell *design* — deep, signature)
+  - Gem = 3D voxel-grid factory floor (node count = gem size · purity = power)
+  - **Process-built 3D constructs** (Form + Substance + Behavior); form from *shapers* (process-ops), never hand-placed
+  - Particle **sim = source of truth** → **VFX Graph** = visual skin
+  - **Test Room** (fire-and-watch instant feedback)
+- **Surface B — Workshop production** (the "regular automation")
+  - Belt/machine line makes the **parts + gear** (**throughput = market output**)
+  - Curated part catalog; coupled to A by shared parts (one economy, not two games)
+  - *(human-vs-machine = open; rec machine + thin artisan-flavor)*
+- Gear & housing (gauntlet/wand/sword/armor; **gem-slots = element-combination tier**)
+- Elements / spell-mixing
+  - 4 base + 6 pairs + 4 triples = **14** (capped at 3 here; **full depth = dream game**, NOT 2-element-capped — that cap is LS-only)
+  - all-4 = **Akash** (forbidden / teased "new Mani")
+- Research / **tech tree** (new operations = the Modulus depth-fix; spell library)
+- **Market & competitor** (= AI-thread v1; market = shared substrate · competitor = market-level agent, 2–4 rival personalities, behind-the-curtain — see `Automation/07`)
 
 ## 4. Loot System *(looter pillar)*
 - Item definitions + rarity (Common → Legendary)
