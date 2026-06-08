@@ -66,6 +66,8 @@ A **proving ground** in the workshop where you **fire the spell and watch the re
 
 The Looter Shooter capped combinations at 2 elements *(LS scope-limit only)*. Here we go to the **3-Mani ceiling**. With the **4 base elements**, the math is clean and bounded: **4 base + 6 pairs + 4 triples = 14 craftable elements.**
 
+**Naming / design principle (locked):** a compound **fuses its parents into a *new* behavior**, never just intensifies one parent; names are English *common* terms (gameplay-legible, per the Mani / Panchamani common-vs-formal rule).
+
 **Base (4):**
 | Element | Flavor / role |
 |---|---|
@@ -80,9 +82,9 @@ The Looter Shooter capped combinations at 2 elements *(LS scope-limit only)*. He
 | Agni + Jal | **Steam** | Scalding AoE cloud — burn + obscure |
 | Agni + Bhu | **Magma** | Lava terrain + heavy DoT — area denial |
 | Agni + Vayu | **Lightning** | Fast chaining burst — high single-target |
-| Jal + Bhu | **Mire** | Root / slow + difficult terrain *(alt: Acid = armor-melt)* |
-| Jal + Vayu | **Frost** | Hard freeze (sets up Shatter combo) — AoE chill |
-| Bhu + Vayu | **Crystal** | Shard projectiles, pierce *(alt: Sandstorm = AoE blind)* |
+| Jal + Bhu | **Mud** | Root + difficult-terrain **zone** — area-denial trap (immobility, vs Magma's damage) |
+| Jal + Vayu | **Frost** | **AoE** freeze — the area version of base Jal's single-target freeze; sets up mass-Shatter |
+| Bhu + Vayu | **Crystal** | **Wind-driven piercing shards** — ranged pierce |
 
 **Triples (4):**
 | Combo | Result | Behavior |
@@ -92,8 +94,10 @@ The Looter Shooter capped combinations at 2 elements *(LS scope-limit only)*. He
 | Agni + Bhu + Vayu | **Detonation** | Single huge explosive burst + shrapnel |
 | Jal + Bhu + Vayu | **Blizzard** | Weather-scale freeze + push — hard control |
 
+*Structural mnemonic: each triple **omits one element**, and the omission defines it — Eruption (no Vayu) = grounded · Tempest (no Bhu) = airborne · Detonation (no Jal) = dry blast · Blizzard (no Agni) = pure cold control, no damage.*
+
 **The forbidden 5th — the callback:** the **all-4 mix → Akash, "the new Mani"** — the Accord's secret obsession, **teased in endgame requests but never craftable** ("it never happens"). The crafting ceiling *is* the fiction (see `04`).
 
 **Mechanical basis for combining (ties three systems together):** gear **housings have gem slots** → **slot count = how many element-gems you combine = combination tier** (1 → base · 2 → pairs · 3 → triples). So **gear progression = element-combination capacity**, and Surface A's process merges the multiple gem streams into the compound.
 
-> **Status:** the *count* (14, capped at 3) and the Akash-tease tie-in are locked; the specific names/roles are a strong proposal — refine freely. Exact spell behaviors firm up alongside the particle exploration.
+> **Status:** count, **names, and roles LOCKED 2026-06-08** (base unchanged; pairs = Steam / Magma / Lightning / Mud / Frost / Crystal; triples = Eruption / Tempest / Detonation / Blizzard; all-4 = Akash, forbidden). Exact spell *numbers* firm up alongside the particle exploration.
