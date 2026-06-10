@@ -9,7 +9,7 @@
 ## Three kinds of systems
 1. **Pillar systems** → become their own small game(s): Combat · Looter · City · Automation.
 2. **Cross-cutting threads** → NOT standalone games; they **grow as versioned threads woven through other games**, leveling up whenever a host game needs more: **Procgen** (v1→v4, below), plus the **Tier-0 foundation** (save / tech / art all grow this way).
-3. **Integration games** → where pillars merge: the Looter Shooter · the Dungeon/Roguelike loop · the Dream Game.
+3. **Integration games** → where pillars merge: the Looter Shooter · the Dream Game.
 
 ---
 
@@ -24,7 +24,7 @@
 *Not its own game. Scope it for the dream game (procedural dungeons + island/town generation), then build it up in versions, each developed inside whichever game first needs that level:*
 - **v1 — Procedural placement** (scatter loot / enemies / resources within an authored space) → host: an early **combat / looter** game
 - **v2 — Simple rooms** (generate a single room layout) → host: a **combat / dungeon** game
-- **v3 — Complete dungeons** (stitch rooms + encounter/loot directors into full dungeons) → host: the **Dungeon/Roguelike integration**
+- **v3 — Complete dungeons** (stitch rooms + encounter/loot directors into full dungeons) → host: the **Dream Game** (no separate dungeon-integration game — see below)
 - **v4 — Entire towns / islands** (procedural settlements + the Triangle's islands) → host: the **City-builder** and/or the **Dream Game**
 > Host-game links are tentative — the rule is "build the next procgen version inside the game that first needs it."
 > **⚑ FLAGGED (2026-06-07):** a dedicated **cross-game procgen-planning discussion** will assign each version to its host game and **set dev-order across all games.** Note: the **City-Builder uses procgen islands** (a v4-flavored need surfacing earlier than the table assumes) — exactly the kind of host-reassignment that discussion will settle. Also note the **grid substrate** (Tier 0) makes every procgen version cheaper (discrete tiles).
@@ -64,12 +64,10 @@ One risky core (Conjuration Engineering) = one proving game + the fusion. A stan
 
 ### E. Procgen *(System 7)* — **NOT a standalone game.** It's the cross-cutting **Procgen Thread** (see top: v1 placement → v2 rooms → v3 dungeons → v4 towns/islands), grown inside whichever game first needs each version.
 
-### ▶ INTEGRATION — The Dungeon / Roguelike Loop *(Systems 6 + 8 + Procgen v3 + city-defense)*
-7. Combine **combat + procgen (v3 dungeons) + city-defense + the dungeon-break clock + clear-vs-defend + re-animation.** The dream game's core threat loop.
-   - This is where the **deferred dream-game internal decisions** (the dungeon-break clock, extract-before-fall, clear-vs-defend balance, run granularity) finally get *designed against a playable build* — exactly where they belong.
+> **NO separate Dungeon/Roguelike integration game (removed 2026-06-10).** It was once slotted as game 7 (Systems 6 + 8 + Procgen v3 + city-defense — the dream game's threat loop). **Cut** because its only real de-risking value was procgen, and procgen is already a versioned thread maturing across the earlier games (v1 placement, v2 rooms, v4 towns/islands) → by the time the dream game needs v3 dungeons the tech is proven. So **System 6 (Dungeon), System 8 (Roguelike), Procgen v3, and the reserved city-defense/TD all build directly in the Dream Game.** Consequence: the deferred dream-game internal decisions (dungeon-break clock, extract-before-fall, clear-vs-defend balance, run granularity) get designed against the Dream Game build itself — which is already where they were deferred to.
 
 ### ▶ FINAL — The Dream Game *(combine everything)*
-8. **The Dream Game** — combat + looter + city + automation + procgen (v4) + dungeon/roguelike + the dual-city structure + the immortal protagonist + story (9) + extraction (10). The full four-pillar fusion.
+7. **The Dream Game** — combat + looter + city + automation + **the dungeon/roguelike threat loop (Systems 6 + 8) + city-defense/TD + procgen (v3 dungeons + v4 towns/islands)** + the dual-city structure + the immortal protagonist + story (9) + extraction (10). The full four-pillar fusion. *This is where the deferred dream-game internals (dungeon-break clock, extract-before-fall, clear-vs-defend, run granularity) finally get designed against a playable build.*
 
 ---
 
@@ -81,10 +79,10 @@ One risky core (Conjuration Engineering) = one proving game + the fusion. A stan
 ---
 
 ## Build order (the ladder)
-**1** Parry Combat → **2** Tactical Combat → **3** Looting & Crafting → **▶ 4 The Looter Shooter** → **5a** Mani Logistics Game → **5b** Cozy Mani-Town Builder → **▶ 5c City Builder (fusion)** → **6a** Conjuration Game → **▶ 6b** Spell-Shop (fusion) → **▶ 7 Dungeon/Roguelike integration** → **▶ 8 The Dream Game**
+**1** Parry Combat → **2** Tactical Combat → **3** Looting & Crafting → **▶ 4 The Looter Shooter** → **5a** Mani Logistics Game → **5b** Cozy Mani-Town Builder → **▶ 5c City Builder (fusion)** → **6a** Conjuration Game → **▶ 6b** Spell-Shop (fusion) → **▶ 7 The Dream Game**
 > *(City pillar split into 3 games 2026-06-07 — two proving-games + a fusion, mirroring the combat split. Build order = Logistics → Cozy Town → Fusion: logistics first because it's the smaller build + the design-riskiest system.)*
 > *(Automation pillar split into 2 games 2026-06-10 — one proving game + the fusion. ⚑ The Conjuration Game is small/self-contained enough to slot EARLIER in the ladder if a breather between big builds is wanted — final placement at the dev-order session.)*
-*(Procgen is a thread woven through these — v1/v2 in the early combat/looter games, v3 at the Dungeon integration, v4 at City/Dream Game.)*
+*(Procgen is a thread woven through these — v1/v2 in the early combat/looter games, v3/v4 at City/Dream Game.)*
 
 > **OPEN (refine when relevant):** exact ship-vs-internal per game · exact ordering of 5/6 (city / automation are independent and can reorder; 6a is portable earlier).
-> **DECIDED:** no "combined combat" game (the LS *is* that merge) · procgen is a cross-cutting thread, not a standalone game · all three big pillars now scoped + split (combat 2026-06-02 · city 2026-06-07 · automation 2026-06-10, see `Mechanics/Automation/10`–`11`).
+> **DECIDED:** no "combined combat" game (the LS *is* that merge) · procgen is a cross-cutting thread, not a standalone game · **no separate Dungeon/Roguelike integration game (removed 2026-06-10 — its systems build directly in the Dream Game; procgen de-risks via the earlier games)** · all three big pillars now scoped + split (combat 2026-06-02 · city 2026-06-07 · automation 2026-06-10, see `Mechanics/Automation/10`–`11`).

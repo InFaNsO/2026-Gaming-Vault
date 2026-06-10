@@ -56,7 +56,7 @@ A town is **fully equipped and viable at a comfortable size.** The game does **N
 | Per-Mani research (4 currencies) | if research feels flat in playtest |
 | Goods / building breadth | additively, post-core |
 | Procgen-island sophistication | at the cross-game procgen-planning discussion |
-| Tower-defense | at the dream-game / Dungeon integration |
+| Tower-defense | at the dream game (built directly there; no separate dungeon-integration game) |
 
 ---
 

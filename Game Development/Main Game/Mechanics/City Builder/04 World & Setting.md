@@ -71,7 +71,7 @@ Each element keeps its **locked elemental nature** (the same nature behind its c
 
 **No tower-defense, no combat threat in the city game.** Tension comes purely from **economic & logistics mastery** (Anno model): keeping a multi-biome, multi-species production/logistics portfolio balanced so no colony starves, while climbing the tier ladder and affording the Akash Synthesis. The logistics web + the multi-element-goods-force-trade hook generate the stakes on their own.
 
-- **Tower-defense is RESERVED for the dream game** (the Dungeon/Roguelike integration, its original build-plan slot), where its real context lives (dungeon-break clock + clear-vs-defend). Rationale: the threat kept failing the enthusiasm test against the cozy identity; and only *actual* TD forward-maps to the dream game's TD, so once it leaves, the city game's tension is chosen for "best cozy game."
+- **Tower-defense is RESERVED for the dream game** (built directly there — the separate Dungeon/Roguelike integration game was removed 2026-06-10), where its real context lives (dungeon-break clock + clear-vs-defend). Rationale: the threat kept failing the enthusiasm test against the cozy identity; and only *actual* TD forward-maps to the dream game's TD, so once it leaves, the city game's tension is chosen for "best cozy game."
 - **Environmental Mani-weather** (heat-waves / floods / surges as resilience flavor) = **DEFERRED — revisit AFTER the prototype** (user, 2026-06-07). Not in the prototype.
 - **No wild-Mani-construct enemies** (they existed only to feed TD — removed with it).
 
