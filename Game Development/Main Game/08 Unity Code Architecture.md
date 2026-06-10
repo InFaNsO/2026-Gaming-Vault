@@ -2,6 +2,7 @@
 # Unity Code Architecture *(SHARED FOUNDATION — all games)*
 
 > **PROMOTED to the Main Game level (2026-06-06).** This is a **cross-cutting foundation doc, not a Looter-Shooter doc** — the engine architecture & data-driven/decoupled patterns here are **followed by EVERY game on the build ladder** (see [[07 Testbed Build Plan]], Tier-0 foundation). It was *authored* during the Looter Shooter, so the combat/world specifics below are LS examples; the **general patterns** (assemblies, GameBootstrapper + service locator, typed event bus, ScriptableObject data layer, the top-level state machine, build order) are the part that carries forward and grows additively across all games.
+> **➡ Tier-0 concrete v1 now exists (2026-06-10):** [[Games/1a Last Rite - Code Architecture]] — the Game-1 architecture doc instantiates the patterns here (assembly map, extraction-ready `BGamer.*` seams, sim/presentation split, outcome-vs-economy rule). For Game 1 work, THAT doc is authoritative; this one remains the pattern reference + the LS-era spec.
 
 > Lore reference stack (LS-specific): [[Mechanics/Looter Shooter/14 Naming Glossary|14 Naming Glossary]] · [[Mechanics/Looter Shooter/12 The Akashic and The Bleed|12 The Akashic and The Bleed]] · [[Mechanics/Looter Shooter/11 Factions and Species|11 Factions and Species]] · [[Mechanics/Looter Shooter/13 Campaign Structure|13 Campaign Structure]] · [[Mechanics/Looter Shooter/15 Grinder Trust Arc|15 Grinder Trust Arc]]
 
